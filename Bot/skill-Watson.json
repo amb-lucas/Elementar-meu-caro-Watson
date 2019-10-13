@@ -1,0 +1,5025 @@
+{
+  "name": "Sistemas Geniais",
+  "intents": [
+    {
+      "intent": "Confirmar",
+      "examples": [
+        {
+          "text": "Aham"
+        },
+        {
+          "text": "Sim"
+        },
+        {
+          "text": "É claro"
+        },
+        {
+          "text": "Isso mesmo"
+        },
+        {
+          "text": "Isso"
+        },
+        {
+          "text": "Exatamente"
+        },
+        {
+          "text": "Exato"
+        },
+        {
+          "text": "Correto"
+        },
+        {
+          "text": "Claro"
+        }
+      ],
+      "description": "Ações de confirmação"
+    },
+    {
+      "intent": "Agradecer",
+      "examples": [
+        {
+          "text": "Obrigado"
+        },
+        {
+          "text": "Agradecida"
+        },
+        {
+          "text": "Agradecido"
+        },
+        {
+          "text": "Obrigada"
+        },
+        {
+          "text": "Obg"
+        },
+        {
+          "text": "Vlw"
+        },
+        {
+          "text": "Valeu"
+        },
+        {
+          "text": "Obgd"
+        }
+      ],
+      "description": "Usuário agradecendo"
+    },
+    {
+      "intent": "PerguntarAlgo",
+      "examples": [
+        {
+          "text": "Aonde ?"
+        },
+        {
+          "text": "Como ?"
+        },
+        {
+          "text": "O que ?"
+        },
+        {
+          "text": "O que é ?"
+        },
+        {
+          "text": "Onde ?"
+        },
+        {
+          "text": "Por que ?"
+        },
+        {
+          "text": "Porque ?"
+        },
+        {
+          "text": "Quando ?"
+        },
+        {
+          "text": "Quem ?"
+        }
+      ],
+      "description": "Perguntas e Interação com a Agente Recrutadora"
+    },
+    {
+      "intent": "Cumprimentar",
+      "examples": [
+        {
+          "text": "Saudações"
+        },
+        {
+          "text": "Olá"
+        },
+        {
+          "text": "Ola"
+        },
+        {
+          "text": "Oie"
+        },
+        {
+          "text": "Oi"
+        },
+        {
+          "text": "Hey"
+        },
+        {
+          "text": "Ei"
+        },
+        {
+          "text": "Bom dia"
+        },
+        {
+          "text": "Boa tarde"
+        },
+        {
+          "text": "Boa noite"
+        }
+      ],
+      "description": "Usuário Cumprimentando o bot"
+    },
+    {
+      "intent": "PedirAjuda",
+      "examples": [
+        {
+          "text": "Ajuda"
+        },
+        {
+          "text": "/help"
+        },
+        {
+          "text": "Preciso de ajuda"
+        },
+        {
+          "text": "Socorro"
+        },
+        {
+          "text": "Me ajuda"
+        }
+      ],
+      "description": "Menu de ajuda ao usuário"
+    },
+    {
+      "intent": "Negar",
+      "examples": [
+        {
+          "text": "Nao"
+        },
+        {
+          "text": "Nem fudendo"
+        },
+        {
+          "text": "Nada disso"
+        },
+        {
+          "text": "Nada haver"
+        },
+        {
+          "text": "Não"
+        },
+        {
+          "text": "Que nada"
+        },
+        {
+          "text": "Porra nenhuma"
+        },
+        {
+          "text": "Nem um pouco"
+        },
+        {
+          "text": "De jeito nenhum"
+        },
+        {
+          "text": "Negativo"
+        },
+        {
+          "text": "Nunca"
+        }
+      ],
+      "description": "Negação do Usuário. (Opção de Não)"
+    },
+    {
+      "intent": "IniciarCaso",
+      "examples": [
+        {
+          "text": "Iniciar operação"
+        },
+        {
+          "text": "Iniciar caso"
+        },
+        {
+          "text": "Iniciar um caso"
+        },
+        {
+          "text": "Começar operação"
+        },
+        {
+          "text": "Gostaria de iniciar uma operação"
+        },
+        {
+          "text": "Gostaria de começar um caso"
+        },
+        {
+          "text": "Quero participar de uma operação"
+        },
+        {
+          "text": "Quero resolver um mistério"
+        },
+        {
+          "text": "Quero resolver um caso"
+        },
+        {
+          "text": "Quero começar um caso"
+        },
+        {
+          "text": "Quero iniciar um caso"
+        },
+        {
+          "text": "Listar casos"
+        },
+        {
+          "text": "Quero ver os casos"
+        },
+        {
+          "text": "Queria ver um caso"
+        },
+        {
+          "text": "Quero ver um dos casos"
+        },
+        {
+          "text": "Começar caso"
+        },
+        {
+          "text": "Começar um caso"
+        }
+      ],
+      "description": "Indicador do jogador pronto para iniciar um caso."
+    },
+    {
+      "intent": "ReiniciarProgresso",
+      "examples": [
+        {
+          "text": "/reiniciarProgresso"
+        }
+      ],
+      "description": "Reinicia o progresso de casos concluídos. (Usado para debug)"
+    },
+    {
+      "intent": "PedirDica",
+      "examples": [
+        {
+          "text": "Quero dica"
+        },
+        {
+          "text": "Está muito difícil"
+        },
+        {
+          "text": "Dica, por favor"
+        },
+        {
+          "text": "Dá uma dica"
+        },
+        {
+          "text": "Quero uma dica"
+        },
+        {
+          "text": "Quero outra dica"
+        },
+        {
+          "text": "Preciso de uma dica"
+        },
+        {
+          "text": "Outra dica"
+        },
+        {
+          "text": "Me dê uma dica"
+        }
+      ],
+      "description": "Pedir por uma dica ou palpite"
+    },
+    {
+      "intent": "SairCaso",
+      "examples": [
+        {
+          "text": "Sair do caso"
+        },
+        {
+          "text": "Desistir do caso"
+        },
+        {
+          "text": "Voltar para a agência"
+        },
+        {
+          "text": "Retornar para a agência"
+        },
+        {
+          "text": "Quitar"
+        },
+        {
+          "text": "Abandonar o caso"
+        }
+      ],
+      "description": "Abandona o caso atual e volta para a agência de crimes."
+    },
+    {
+      "intent": "Examinar",
+      "examples": [
+        {
+          "text": "Examinar"
+        },
+        {
+          "text": "Dar uma olhada"
+        },
+        {
+          "text": "Checar"
+        },
+        {
+          "text": "Buscar"
+        },
+        {
+          "text": "Averiguar"
+        },
+        {
+          "text": "Analisar"
+        },
+        {
+          "text": "Contemplar"
+        },
+        {
+          "text": "Buscar por"
+        },
+        {
+          "text": "Explorar"
+        },
+        {
+          "text": "Verificar"
+        },
+        {
+          "text": "Ver"
+        },
+        {
+          "text": "Procurar por"
+        },
+        {
+          "text": "Olhar para"
+        },
+        {
+          "text": "Procurar"
+        },
+        {
+          "text": "Olhar"
+        },
+        {
+          "text": "Observar"
+        },
+        {
+          "text": "Investigar"
+        },
+        {
+          "text": "Inspecionar"
+        },
+        {
+          "text": "Fazer uma análise"
+        }
+      ],
+      "description": "Examinar e interagir com o cenário."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "saunaRelevante",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "assassinato",
+          "synonyms": [
+            "crime",
+            "morte",
+            "homicídio",
+            "homicidio"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "água",
+          "synonyms": [
+            "agua",
+            "poça",
+            "poca"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "objeto",
+          "synonyms": [
+            "objetos",
+            "alguma coisa",
+            "ítens",
+            "itens",
+            "item"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "perfuroCortante",
+          "synonyms": [
+            "cortante",
+            "perfurador"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pessoas",
+          "synonyms": [
+            "gente",
+            "alguém",
+            "homens",
+            "mulheres",
+            "alguem",
+            "pessoa"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "saída",
+          "synonyms": [
+            "saida",
+            "escape",
+            "fuga",
+            "entrada",
+            "porta"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sangue",
+          "synonyms": [
+            "hemorragia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sauna",
+          "synonyms": [
+            "local",
+            "cena do crime",
+            "cenário",
+            "ambiente",
+            "sala"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "suicídio",
+          "synonyms": [
+            "se matar",
+            "se matou",
+            "suicidio"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "vazamento",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "suspeito",
+          "synonyms": [
+            "suspeitos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "garrafa",
+          "synonyms": [
+            "garrafas",
+            "garrafinha",
+            "garrafinhas",
+            "garrafa térmica"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "janela",
+          "synonyms": [
+            "janelas"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "gelo",
+          "synonyms": [
+            "congelado",
+            "congelada"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "feridas",
+          "synonyms": [
+            "ferimento",
+            "ferida",
+            "ferimentos",
+            "corte",
+            "cortes",
+            "machucados"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "faca",
+          "synonyms": [
+            "lâmina",
+            "lamina",
+            "facão",
+            "facao",
+            "adaga"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "corpo",
+          "synonyms": [
+            "cadáver",
+            "cadaver",
+            "morto",
+            "homem",
+            "vítima"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "choque térmico",
+          "synonyms": [
+            "choque termico",
+            "temperatura"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "chão",
+          "synonyms": [
+            "chao",
+            "área",
+            "area",
+            "ambiente"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "câmera",
+          "synonyms": [
+            "camera",
+            "filme",
+            "filmagem",
+            "gravação",
+            "gravacao",
+            "gravaçao"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "arma",
+          "synonyms": [
+            "armas",
+            "arma do crime"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "algoRelevante",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "invasão",
+          "synonyms": [
+            "roubo",
+            "assalto",
+            "invasao"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "água",
+          "synonyms": [
+            "agua"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "veneno",
+          "synonyms": [
+            "envenenados",
+            "envenenado"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "apartamento",
+          "synonyms": [
+            "sala",
+            "cômodo",
+            "comodo",
+            "ambiente"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pêlo",
+          "synonyms": [
+            "pelo",
+            "pêlos",
+            "pelos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "chão",
+          "synonyms": [
+            "chao"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "corpos",
+          "synonyms": [
+            "corpo",
+            "cadáver",
+            "cadaver",
+            "cadaveres",
+            "cadáveres",
+            "romeu",
+            "julieta"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "quebrado",
+          "synonyms": [
+            "quebrou",
+            "caiu",
+            "derrubado",
+            "quebraram",
+            "derrubaram",
+            "destruído",
+            "destruido"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Romeu e Julieta são peixes",
+          "synonyms": [
+            "Eles são peixes"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cachorro",
+          "synonyms": [
+            "doguinho",
+            "dog",
+            "cachorrinho",
+            "cão",
+            "cãozinho",
+            "cachorros",
+            "cães",
+            "cao",
+            "caes"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pessoas",
+          "synonyms": [
+            "gente",
+            "homens",
+            "mulheres",
+            "alguém",
+            "criança",
+            "alguem"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "suicídio",
+          "synonyms": [
+            "se matar",
+            "se matou",
+            "se mataram",
+            "suicidio"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "vidro",
+          "synonyms": [
+            "cacos de vidro",
+            "pedaços de vidro",
+            "cacos",
+            "pedaços",
+            "pedacos",
+            "vidros"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "aquário",
+          "synonyms": [
+            "aquários",
+            "aquario",
+            "aquarios"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sangue",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "porta",
+          "synonyms": [
+            "saída",
+            "fuga",
+            "escape"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pia",
+          "synonyms": [
+            "torneira"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "peixe",
+          "synonyms": [
+            "peixes"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "janela",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "identidade",
+          "synonyms": [
+            "digitais"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "feridas",
+          "synonyms": [
+            "ferimento",
+            "ferimentos",
+            "ferida",
+            "machucado"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "chuveiro",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "chuva",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "assassinato",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "animais",
+          "synonyms": [
+            "pets",
+            "animais de estimação",
+            "animal"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "amor",
+          "synonyms": [
+            "romance",
+            "casal",
+            "namorados",
+            "casados"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "arma",
+          "synonyms": [
+            "faca",
+            "martelo",
+            "arma do crime",
+            "armas"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "copo",
+          "synonyms": [
+            "taça",
+            "garrafa",
+            "copos",
+            "garrafas",
+            "taças"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "gato",
+          "synonyms": [
+            "gatos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "vaso",
+          "synonyms": [
+            "jarro",
+            "jarra",
+            "vasos",
+            "jarros",
+            "jarras"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "vazamento",
+          "synonyms": [
+            "cano",
+            "canos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pássaro",
+          "synonyms": [
+            "passarinho",
+            "passaro",
+            "passarinhos",
+            "pássaros",
+            "passaros"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "desertoRelevante",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "queda",
+          "synonyms": [
+            "caiu",
+            "se jogou",
+            "se jogar"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "areia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "chão",
+          "synonyms": [
+            "terreno",
+            "ambiente",
+            "chao",
+            "ao redor"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "digitais",
+          "synonyms": [
+            "identidade"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "fogo",
+          "synonyms": [
+            "incêndio",
+            "incendio"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "palito",
+          "synonyms": [
+            "palitinho"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pessoas",
+          "synonyms": [
+            "pessoa",
+            "alguém",
+            "gente"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "roupa",
+          "synonyms": [
+            "roupas",
+            "vestes",
+            "vestimentas",
+            "camisas",
+            "camisa",
+            "calça",
+            "calca",
+            "short",
+            "shorts",
+            "jeans"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "suicídio",
+          "synonyms": [
+            "suicidio",
+            "se matou",
+            "se matar"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "saco",
+          "synonyms": [
+            "sacos",
+            "sacas",
+            "sacas de areia",
+            "sacos de areia",
+            "saco de areia",
+            "saca",
+            "saca de areia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sede",
+          "synonyms": [
+            "desidratado",
+            "desidratar"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "desmaio",
+          "synonyms": [
+            "desmaiar",
+            "desmaiou"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "calor",
+          "synonyms": [
+            "ensolação",
+            "queimadura",
+            "queimou",
+            "queimar",
+            "queimado",
+            "quente"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "vento",
+          "synonyms": [
+            "ar",
+            "ventar",
+            "venta"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "assassinato",
+          "synonyms": [
+            "assassinado"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "roubo",
+          "synonyms": [
+            "roubado"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "corpo",
+          "synonyms": [
+            "homem",
+            "cadáver",
+            "cadaver",
+            "morto",
+            "lesões",
+            "lesoes"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "céu",
+          "synonyms": [
+            "ceu",
+            "cima"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "balão",
+          "synonyms": [
+            "balões",
+            "balao",
+            "baloes"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "avião",
+          "synonyms": [
+            "aeronave",
+            "aviao",
+            "helicóptero",
+            "helicoptero",
+            "transporte aereo",
+            "transporte aéreo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "objeto",
+          "synonyms": [
+            "coisa",
+            "objetos",
+            "coisas",
+            "algo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "deserto",
+          "synonyms": [
+            "cenário",
+            "ambiente",
+            "arredores",
+            "proximidades",
+            "redondezas",
+            "redondeza",
+            "proximidade",
+            "por perto"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "jogo",
+          "synonyms": [
+            "aposta",
+            "apostou",
+            "apostar",
+            "jogar",
+            "jogado",
+            "apostaram",
+            "jogaram",
+            "tirou no",
+            "tiraram no"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "acoesTutorial",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Apertar Botão",
+          "synonyms": [
+            "apertar botao",
+            "pressionar botao",
+            "Pressionar botão",
+            "Apertar o botão",
+            "Pressionar o botão"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Entrar na sala",
+          "synonyms": [
+            "Seguir até a sala",
+            "Seguir à sala",
+            "seguir para a sala",
+            "acompanhar à sala",
+            "acompanhar até a sala",
+            "ir até a sala",
+            "ir para a sala",
+            "acompanhar",
+            "seguir"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Segurar Lanterna",
+          "synonyms": [
+            "segurar a lanterna",
+            "segurar a luz",
+            "pegar a lanterna",
+            "pegar a luz"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "TituloCaso",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Romeu e Julieta",
+          "synonyms": [
+            "romeu",
+            "Caso de Romeu e Julieta",
+            "Caso do romeu e julieta",
+            "1 ",
+            "1 - Romeu e Julieta",
+            "julieta",
+            "Caso 1"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cancelar",
+          "synonyms": [
+            "Voltar"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Homem e o Palito",
+          "synonyms": [
+            "O homem e o palito",
+            "palito",
+            "homem",
+            "caso do homem e do palito",
+            "3",
+            "3 - O Homem e o Palito",
+            "Caso 3"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Morte na Sauna",
+          "synonyms": [
+            "sauna",
+            "Caso da Morte na Sauna",
+            "2",
+            "2 - Morte na Sauna",
+            "Caso 2"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "assuntoPerguntas",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Quem é você ?",
+          "synonyms": [
+            "Quem eh você ?",
+            "Quem eh vc ?",
+            "Quem é vc ?",
+            "Qual seu nome ?",
+            "Qual o seu nome ?",
+            "Quem é você?",
+            "Quem eh você?",
+            "Quem eh vc?",
+            "Quem é vc?",
+            "Qual seu nome?"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Aonde estamos ?",
+          "synonyms": [
+            "Onde estamos ?",
+            "Aonde estou ?",
+            "Onde estou ?",
+            "Aonde estamos?",
+            "Aonde estou?",
+            "Onde estou?",
+            "Onde estamos?"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Essa informação é confidencial ?",
+          "synonyms": [
+            "Essa informacao eh confidencial ?",
+            "Isso é confidencial ?",
+            "Isso eh confidencial ?"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Quem é seu chefe ?",
+          "synonyms": [
+            "Quem eh seu chefe ?",
+            "Qm eh seu chefe ?",
+            "Qm é seu chefe ?"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "O que devo fazer agora ?",
+          "synonyms": [
+            "O que eu faço ?",
+            "O que devo fazer agr ?",
+            "O que faço ?",
+            "O que faço agr?",
+            "Faço o que agora ?",
+            "O q eu faço ?",
+            "Q eu faço agr ?"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "language": "pt-br",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "skill_id": "2c4ec75c-b9e7-46e2-b34c-938d7a9f3f83",
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Inválido",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Não entendi, favor responda com um \"Sim\" ou \"Não\"."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1570587792948",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_4_1570587792948"
+      },
+      "conditions": "true",
+      "dialog_node": "node_5_1570585736765",
+      "previous_sibling": "node_5_1570585688245"
+    },
+    {
+      "type": "standard",
+      "title": "Continuar no caso",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Então, de volta ao trabalho :)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1570587792948",
+      "conditions": "#Negar",
+      "dialog_node": "node_5_1570585688245",
+      "previous_sibling": "node_10_1570585590417"
+    },
+    {
+      "type": "standard",
+      "title": "Confirmar saída",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🕵️‍♀️:  Olá $nomeDetetive,\nLhe desejo mais sorte no próximo caso."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1570587792948",
+      "context": {
+        "NumCaso": 0
+      },
+      "conditions": "#Confirmar",
+      "dialog_node": "node_10_1570585590417"
+    },
+    {
+      "type": "standard",
+      "title": "Confirmar Nome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🕵️‍♀️:  Então seu nome é \"$nomeDetetive\", correto ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Bem-vindo",
+      "context": {
+        "nomeDetetive": "<?input_text?>"
+      },
+      "conditions": "true",
+      "dialog_node": "node_3_1570561037663"
+    },
+    {
+      "type": "standard",
+      "title": "Ajuda Segurar Lanterna",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🕵️‍♀️:  Basta digitar \"Segurar lanterna\"."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1570576728692",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_9_1570576839285"
+      },
+      "conditions": "true",
+      "dialog_node": "node_8_1570576901609",
+      "previous_sibling": "node_9_1570576839285"
+    },
+    {
+      "type": "standard",
+      "title": "Entrar na sala",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🕵️‍♀️:  Ótimo, as luzes voltaram, isso deve resolver esse problema. :)\n\nAgora, me acompanhe até minha sala."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1570576728692",
+      "conditions": "@acoesTutorial:(Segurar Lanterna)",
+      "dialog_node": "node_9_1570576839285"
+    },
+    {
+      "type": "standard",
+      "title": "Não identificado 3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Não entendi o que você quis dizer, mas acho melhor examinarmos algo."
+              },
+              {
+                "text": "👮‍♂️:  Não creio ter entendido, mas creio que seja melhor procurarmos por pistas."
+              },
+              {
+                "text": "👮‍♂️:  Não entendi o que você disse, mas talvez seja melhor procuramos por algo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_2_1570692515273",
+      "conditions": "true",
+      "dialog_node": "node_1_1570692588634",
+      "previous_sibling": "node_2_1570729757530"
+    },
+    {
+      "type": "folder",
+      "title": "Questionar Algo",
+      "parent": "node_2_1570692515273",
+      "conditions": "@desertoRelevante",
+      "dialog_node": "node_3_1570692568206",
+      "previous_sibling": "node_5_1570692547522"
+    },
+    {
+      "type": "standard",
+      "title": "Perguntas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Não sou muito bom com perguntas, detetive.\nCreio que devamos examinar mais coisas em busca de pistas."
+              },
+              {
+                "text": "👮‍♂️:  Não sou bom com perguntas, detetive.\nCreio que devamos explorar mais em busca de pistas."
+              },
+              {
+                "text": "👮‍♂️:  Perguntas não são o meu forte, detetive.\nCreio que devamos procurar por mais pistas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_2_1570692515273",
+      "conditions": "#PerguntarAlgo",
+      "dialog_node": "node_2_1570729757530",
+      "previous_sibling": "node_3_1570692568206"
+    },
+    {
+      "type": "folder",
+      "title": "Examinar Algo",
+      "parent": "node_2_1570692515273",
+      "conditions": "#Examinar",
+      "dialog_node": "node_5_1570692547522"
+    },
+    {
+      "type": "standard",
+      "title": "Mistério Resolvido",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Isso mesmo ! Agora, tudo faz sentido !\n\nOs corpos no chão são os dos peixes Romeu e Julieta.\n\nSeu aquário quebrou quando um dos gatos subiu na mesa e o derrubou, deixando água e cacos de vidro no chão, além de seus corpos que não suportaram a falta de água.\n\nParabéns por solucionar este caso :)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1570647122929",
+      "context": {
+        "NumCaso": 0,
+        "MsgRetorno": 1,
+        "CasoUmResolvido": 1
+      },
+      "conditions": "@algoRelevante:aquário && @algoRelevante:quebrado",
+      "dialog_node": "node_6_1570264412147",
+      "previous_sibling": "node_5_1570585157641"
+    },
+    {
+      "type": "standard",
+      "title": "Informar Dica",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Há algo de peculiar sobre os corpos de Romeu e Julieta."
+              },
+              {
+                "text": "👮‍♂️:  O local me parece bem seguro, é bem improvável que tenha ocorrido algum roubo ou invasão."
+              },
+              {
+                "text": "👮‍♂️:  A água deve ter vindo de dentro da casa, pois não estava chovendo."
+              },
+              {
+                "text": "👮‍♂️:  Haviam alguns pêlos espalhados pela casa. Talvez de algum animal."
+              },
+              {
+                "text": "👮‍♂️:  A poça de água e os pedaços de vidro estão bastante pertos um do outro, talvez isso não seja uma mera coincidência."
+              },
+              {
+                "text": "👮‍♂️:  Os pedaços de vidro devem ter sido de um objeto que foi quebrado."
+              },
+              {
+                "text": "👮‍♂️:  Apesar de serem um casal, Romeu e Julieta não são quem aparentam ser. É como se seus corpos não fossem como os nossos."
+              },
+              {
+                "text": "👮‍♂️:  Você já recebeu todas as dicas. Posso repetí-las se pedir novamente."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1570647122929",
+      "conditions": "#PedirDica",
+      "dialog_node": "node_10_1570264071373",
+      "previous_sibling": "node_2_1570648456198"
+    },
+    {
+      "type": "standard",
+      "title": "Quase Resolvido",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Isso realmente faz muito sentido !\nRomeu e Julieta são peixes!\nMas por que estão mortos no chão ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1570647122929",
+      "context": {},
+      "conditions": "@algoRelevante:(Romeu e Julieta são peixes)",
+      "dialog_node": "node_2_1570648456198",
+      "previous_sibling": "node_6_1570264412147"
+    },
+    {
+      "type": "standard",
+      "title": "Não identificado",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Não entendi o que você quis dizer, mas creio que seja melhor examinarmos algo."
+              },
+              {
+                "text": "👮‍♂️:  Não creio ter entendido, mas acho melhor procurarmos algo que nos ajude no caso."
+              },
+              {
+                "text": "👮‍♂️:  Não entendi o que você disse, mas talvez seja melhor procuramos por pistas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1570647122929",
+      "conditions": "true",
+      "dialog_node": "node_9_1570524712571",
+      "previous_sibling": "node_42_1570730043665"
+    },
+    {
+      "type": "folder",
+      "title": "Examinar Algo",
+      "parent": "node_4_1570647122929",
+      "conditions": "#Examinar",
+      "dialog_node": "node_3_1570647266068",
+      "previous_sibling": "node_10_1570264071373"
+    },
+    {
+      "type": "folder",
+      "title": "Questionamentos",
+      "parent": "node_4_1570647122929",
+      "conditions": "@algoRelevante",
+      "dialog_node": "node_7_1570660276377",
+      "previous_sibling": "node_3_1570647266068"
+    },
+    {
+      "type": "standard",
+      "title": "Perguntas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Não sou muito bom com perguntas, detetive.\nCreio que devamos examinar mais coisas em busca de pistas."
+              },
+              {
+                "text": "👮‍♂️:  Não sou bom com perguntas, detetive.\nCreio que devamos explorar mais em busca de pistas."
+              },
+              {
+                "text": "👮‍♂️:  Perguntas não são o meu forte, detetive.\nCreio que devamos procurar por mais pistas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1570647122929",
+      "conditions": "#PerguntarAlgo",
+      "dialog_node": "node_42_1570730043665",
+      "previous_sibling": "node_7_1570660276377"
+    },
+    {
+      "type": "standard",
+      "title": "Introdução",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Olá, $nomeDetetive.\n\nInfelizmente, teremos de pular as boas vindas, pois não há tempo a perder.\nViemos o mais rápido possível para este apartamento. Ao chegarmos, eis o que encontramos:\n\nRomeu e Julieta mortos no chão, ao lado de uma poça de água e pedaços de vidro espalhados pelo chão.\n\nSeu dever é descobrir o que causou as mortes.\n\nBoa sorte :)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1570647122929",
+      "context": {
+        "NumCaso": 1,
+        "MsgRetorno": 0
+      },
+      "conditions": "$MsgRetorno == 1",
+      "dialog_node": "node_5_1570585157641"
+    },
+    {
+      "type": "standard",
+      "title": "Caso Selecionado",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_30_1570700540877",
+      "context": {
+        "NumCaso": 3,
+        "MsgRetorno": 1
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1570685929684"
+      },
+      "conditions": "true",
+      "dialog_node": "node_32_1570700540881",
+      "previous_sibling": "node_31_1570700540881"
+    },
+    {
+      "type": "standard",
+      "title": "Já Resolvido",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🕵️‍♀️:  Você já resolveu este caso, detetive :)\nQuem sabe não seria melhor explorar nossas outras opções ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_30_1570700540877",
+      "conditions": "$CasoTresResolvido == 1",
+      "dialog_node": "node_31_1570700540881"
+    },
+    {
+      "type": "standard",
+      "title": "Palpite Errado 1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Isso não me parece certo, talvez devamos reunir mais pistas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_21_1570699992419",
+      "conditions": "true",
+      "dialog_node": "node_24_1570699992423",
+      "previous_sibling": "node_22_1570699992423"
+    },
+    {
+      "type": "standard",
+      "title": "Pular para Analisar Mensagem",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_21_1570699992419",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1570692515273"
+      },
+      "conditions": "#Examinar",
+      "dialog_node": "node_22_1570699992423",
+      "previous_sibling": "node_23_1570699992423"
+    },
+    {
+      "type": "standard",
+      "title": "Pular para Mistério Resolvido 3",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_21_1570699992419",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_20_1570699552978"
+      },
+      "conditions": "@desertoRelevante:jogo && @desertoRelevante:palito",
+      "dialog_node": "node_23_1570699992423"
+    },
+    {
+      "type": "standard",
+      "title": "Palpite Errado 1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♀️:  Hmmm, isso não me parece certo.\nTalvez devêssemos procurar por mais pistas."
+              },
+              {
+                "text": "👮‍♀️:  Não me parece certo.\nVamos buscar mais pistas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_6_1570657892437",
+      "conditions": "true",
+      "dialog_node": "node_6_1570658068263",
+      "previous_sibling": "node_8_1570658011563"
+    },
+    {
+      "type": "standard",
+      "title": "Pular para Mistério Resolvido 2",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_6_1570657892437",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1570657243117"
+      },
+      "conditions": "@saunaRelevante:faca",
+      "dialog_node": "node_8_1570658011563",
+      "previous_sibling": "node_4_1570670566665"
+    },
+    {
+      "type": "standard",
+      "title": "Pular para Analisar Mensagem",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_6_1570657892437",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_7_1570670451584"
+      },
+      "conditions": "#Examinar",
+      "dialog_node": "node_4_1570670566665"
+    },
+    {
+      "type": "standard",
+      "title": "Cancelar",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🕵️‍♀️:  Ok! Então o que posso fazer por você ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1570520453985",
+      "conditions": "@TituloCaso:Cancelar",
+      "dialog_node": "node_10_1570703767506",
+      "previous_sibling": "node_30_1570700540877"
+    },
+    {
+      "type": "folder",
+      "title": "Morte na Sauna",
+      "parent": "node_4_1570520453985",
+      "conditions": "@TituloCaso:(Morte na Sauna)",
+      "dialog_node": "node_1_1570661423597",
+      "previous_sibling": "node_2_1570661110977"
+    },
+    {
+      "type": "folder",
+      "title": "O Homem e o Palito",
+      "parent": "node_4_1570520453985",
+      "conditions": "@TituloCaso:(Homem e o Palito)",
+      "dialog_node": "node_30_1570700540877",
+      "previous_sibling": "node_1_1570661423597"
+    },
+    {
+      "type": "folder",
+      "title": "Romeu e Julieta",
+      "parent": "node_4_1570520453985",
+      "conditions": "@TituloCaso:(Romeu e Julieta)",
+      "dialog_node": "node_2_1570661110977"
+    },
+    {
+      "type": "standard",
+      "title": "O que devo fazer agora ?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🕵️‍♀️:  Você pode continuar me fazendo perguntas ou tentar solucionar um de nossos casos."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1570646857046",
+      "conditions": "@assuntoPerguntas:(O que devo fazer agora ?)",
+      "dialog_node": "node_33_1570701490815",
+      "previous_sibling": "node_8_1570524278699"
+    },
+    {
+      "type": "standard",
+      "title": "Enrolar",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🕵️‍♀️:  Essa é de fato uma pergunta muito boa na qual não posso responder por questões técnicas."
+              },
+              {
+                "text": "🕵️‍♀️:  Devo confessar que essa é uma pergunta complicada de ser respondida."
+              },
+              {
+                "text": "🕵️‍♀️:  A resposta dessa pergunta é bem engraçada, infelizmente não poderei compartilhá-la."
+              },
+              {
+                "text": "🕵️‍♀️:  Desculpe, eu me distraí pensando em comida. Qual foi a pergunta ?"
+              },
+              {
+                "text": "🕵️‍♀️:  Essa pergunta pode ser bem delicada por razões que não devem ser mencionadas."
+              },
+              {
+                "text": "🕵️‍♀️:  Aha! Essa pergunta eu posso responder. É um conclusivo talvez."
+              },
+              {
+                "text": "🕵️‍♀️:  Às vezes, as perguntas mais nobres devem continuar sem resposta."
+              },
+              {
+                "text": "🕵️‍♀️:  Essa pergunta me lembra de uma história muito boa, uma pena que ela é confidencial."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_2_1570646857046",
+      "conditions": "true",
+      "dialog_node": "node_5_1570273914373",
+      "previous_sibling": "node_44_1570730767608"
+    },
+    {
+      "type": "standard",
+      "title": "Quem é seu chefe ?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🕵️‍♀️:  Lucas Ambrósio, Natália, Perazzo e Cadu.\nOuvi dizer que eles tem moral."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1570646857046",
+      "conditions": "@assuntoPerguntas:(Quem é seu chefe ?)",
+      "dialog_node": "node_43_1570730728101",
+      "previous_sibling": "node_33_1570701490815"
+    },
+    {
+      "type": "standard",
+      "title": "Aonde estamos ?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🕵️‍♀️:  Você está num lugar mágico onde crimes estranhos acontecem, nós resolvemos todos os problemas digitando o que queremos e um grupo de alunos está torcendo por uma nota boa."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1570646857046",
+      "conditions": "  @assuntoPerguntas:(Aonde estamos ?)",
+      "dialog_node": "node_8_1570524278699",
+      "previous_sibling": "node_5_1570581736922"
+    },
+    {
+      "type": "standard",
+      "title": "Essa informação é confidencial ?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🕵️‍♀️:  Com toda certeza."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1570646857046",
+      "conditions": "@assuntoPerguntas:(Essa informação é confidencial ?)",
+      "dialog_node": "node_44_1570730767608",
+      "previous_sibling": "node_43_1570730728101"
+    },
+    {
+      "type": "standard",
+      "title": "Quem é você ?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🕵️‍♀️:  Apenas digamos que eu seja uma mistura de Sherlock Holmes e Jake Peralta.\nJá está impressionado ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1570646857046",
+      "conditions": "@assuntoPerguntas:(Quem é você ?)",
+      "dialog_node": "node_5_1570581736922"
+    },
+    {
+      "type": "standard",
+      "title": "Nome Negado",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🕵️‍♀️:  Desculpe, tente escrevê-lo novamente."
+              },
+              {
+                "text": "🕵️‍♀️:  Perdão, escreva-o novamente."
+              },
+              {
+                "text": "🕵️‍♀️:  Digite seu nome novamente, por favor."
+              },
+              {
+                "text": "🕵️‍♀️:  Então, qual o seu nome ?"
+              },
+              {
+                "text": "🕵️‍♀️:  Então, como devo lhe chamar ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1570561037663",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_3_1570561037663"
+      },
+      "conditions": "true",
+      "dialog_node": "node_5_1570561208839",
+      "previous_sibling": "node_6_1570561187040"
+    },
+    {
+      "type": "standard",
+      "title": "Apertar Botão",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🕵️‍♀️:  Ótimo, receba as boas vindas da agência, $nomeDetetive.\n\nO mundo aqui funciona a partir da sua interação com o cenário e isso é tão simples quanto digitar o que deseja fazer.\n\nPara praticar, aperte este botão para chamar o elevador."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1570561037663",
+      "conditions": "#Confirmar",
+      "dialog_node": "node_6_1570561187040"
+    },
+    {
+      "type": "standard",
+      "title": "Caso Selecionado",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_2_1570661110977",
+      "context": {
+        "NumCaso": 1,
+        "MsgRetorno": 1
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_5_1570585157641"
+      },
+      "conditions": "true",
+      "dialog_node": "node_5_1570520586574",
+      "previous_sibling": "node_9_1570661096358"
+    },
+    {
+      "type": "standard",
+      "title": "Já Resolvido",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🕵️‍♀️:  Você já resolveu este caso, detetive :)\nQuem sabe não seria melhor explorar nossas outras opções ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1570661110977",
+      "conditions": "$CasoUmResolvido == 1",
+      "dialog_node": "node_9_1570661096358"
+    },
+    {
+      "type": "standard",
+      "title": "Processar Resposta",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_5_1570585508590",
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "true",
+      "dialog_node": "node_4_1570587792948"
+    },
+    {
+      "type": "folder",
+      "title": "Questionamentos",
+      "parent": "node_7_1570670451584",
+      "conditions": "@saunaRelevante",
+      "dialog_node": "node_10_1570663294134",
+      "previous_sibling": "node_4_1570663255997"
+    },
+    {
+      "type": "standard",
+      "title": "Não identificado 2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♀️:  Não entendi o que você quis dizer, mas creio que seja melhor examinarmos algo."
+              },
+              {
+                "text": "👮‍♀️:  Não creio ter entendido, mas acho melhor procurarmos algo que nos ajude no caso."
+              },
+              {
+                "text": "👮‍♀️:  Não entendi o que você disse, mas talvez seja melhor procuramos por pistas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_7_1570670451584",
+      "conditions": "true",
+      "dialog_node": "node_4_1570661842466",
+      "previous_sibling": "node_41_1570729965342"
+    },
+    {
+      "type": "standard",
+      "title": "Perguntas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♀️:  Não sou muito bom com perguntas, detetive.\nCreio que devamos examinar mais coisas em busca de pistas."
+              },
+              {
+                "text": "👮‍♀️:  Não sou bom com perguntas, detetive.\nCreio que devamos explorar mais em busca de pistas."
+              },
+              {
+                "text": "👮‍♀️:  Perguntas não são o meu forte, detetive.\nCreio que devamos procurar por mais pistas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_7_1570670451584",
+      "conditions": "#PerguntarAlgo",
+      "dialog_node": "node_41_1570729965342",
+      "previous_sibling": "node_10_1570663294134"
+    },
+    {
+      "type": "folder",
+      "title": "Examinar Algo",
+      "parent": "node_7_1570670451584",
+      "conditions": "#Examinar",
+      "dialog_node": "node_4_1570663255997"
+    },
+    {
+      "type": "standard",
+      "title": "Procurar Vazamento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♀️:  Não há nenhum sinal de vazamento, a água deve ter vindo de outro local."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1570663255997",
+      "conditions": "@saunaRelevante:vazamento",
+      "dialog_node": "node_17_1570665057908",
+      "previous_sibling": "node_10_1570663754869"
+    },
+    {
+      "type": "standard",
+      "title": "Examinar Câmera",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♀️:  Existe uma câmera na entrada que gravou todas as pessoas que entraram na cena antes do crime. Ninguém carregava nada, exceto um homem que entrou com uma garrafa."
+              },
+              {
+                "text": "👮‍♀️:  Há uma câmera que gravou a entrada de todas as pessoas antes do crime. Ninguém entrou com nada, com exceção de um homem que entrou com uma garrafa."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1570663255997",
+      "conditions": "@saunaRelevante:câmera",
+      "dialog_node": "node_21_1570665562046",
+      "previous_sibling": "node_8_1570663486094"
+    },
+    {
+      "type": "standard",
+      "title": "Examinar Gelo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♀️:  Um dos homens presentes carregava uma garrafa que continha um pouco de gelo, mas me parecia gelo comum."
+              },
+              {
+                "text": "👮‍♀️:  O único lugar onde foi encontrado gelo foi na garrafa de um dos homens presentes, mas me pareceu ser gelo comum."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1570663255997",
+      "conditions": "@saunaRelevante:gelo",
+      "dialog_node": "node_14_1570664412355",
+      "previous_sibling": "node_13_1570664256858"
+    },
+    {
+      "type": "standard",
+      "title": "Examinar Sauna",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♀️:  A sauna possui uma única porta, não tem janelas e o corpo está no chão."
+              },
+              {
+                "text": "👮‍♀️:  O cadáver está no chão e a sauna possui uma única entrada."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1570663255997",
+      "conditions": "@saunaRelevante:sauna",
+      "dialog_node": "node_10_1570663754869",
+      "previous_sibling": "node_18_1570665122477"
+    },
+    {
+      "type": "standard",
+      "title": "Procurar por Arma do crime",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♀️:  Não há sinal de nenhum tipo de arma."
+              },
+              {
+                "text": "👮‍♀️:  Aparentemente, não há uma arma no local do crime."
+              },
+              {
+                "text": "👮‍♀️:  Nenhum tipo de arma foi encontrado no local."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1570663255997",
+      "conditions": "@saunaRelevante:arma",
+      "dialog_node": "node_8_1570663486094",
+      "previous_sibling": "node_5_1570663319207"
+    },
+    {
+      "type": "standard",
+      "title": "Examinar Sangue",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♀️:  Existe sangue do morto no cadáver, ele saiu do ferimento."
+              },
+              {
+                "text": "👮‍♀️:  O ferimento da vítima jorrou sangue, foi confirmado que o sangue é da vítima."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1570663255997",
+      "conditions": "@saunaRelevante:sangue",
+      "dialog_node": "node_18_1570665122477",
+      "previous_sibling": "node_15_1570664516369"
+    },
+    {
+      "type": "standard",
+      "title": "Procurar por alguma Saída",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♀️:  A sauna contém uma única porta para saída, que é monitorada por uma câmera. Todas as pessoas que estavam presentes saíram por ela após serem revistadas."
+              },
+              {
+                "text": "👮‍♀️:  A sauna possui apenas uma porta, que é vigiada por uma câmera. Todas as pessoas que estavam presentes saíram por ela após serem revistadas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1570663255997",
+      "conditions": "@saunaRelevante:saída",
+      "dialog_node": "node_15_1570664516369",
+      "previous_sibling": "node_16_1570664662401"
+    },
+    {
+      "type": "standard",
+      "title": "Examinar Ferimento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♀️:  A ferida estava profunda e coberta de sangue, definitivamente foi feita por um objeto perfurocortante."
+              },
+              {
+                "text": "👮‍♀️:  O ferimento certamente foi causado por um objeto perfurocortante."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1570663255997",
+      "conditions": "@saunaRelevante:feridas",
+      "dialog_node": "node_13_1570664256858",
+      "previous_sibling": "node_9_1570663644149"
+    },
+    {
+      "type": "standard",
+      "title": "Examinar Corpo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♀️:  O corpo da vítima possui uma ferida profunda, existe sangue e água ao seu redor."
+              },
+              {
+                "text": "👮‍♀️:  Existe um ferimento profundo no corpo do morto, além de sangue e uma poça de água ao seu lado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1570663255997",
+      "conditions": "@saunaRelevante:corpo",
+      "dialog_node": "node_9_1570663644149",
+      "previous_sibling": "node_24_1570666217724"
+    },
+    {
+      "type": "standard",
+      "title": "Examinar Chão",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♀️:  No chão encontra-se o cadáver, sangue e uma poça de água."
+              },
+              {
+                "text": "👮‍♀️:  Existe apenas o cadáver, sangue e uma poça de água no chão."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1570663255997",
+      "conditions": "@saunaRelevante:chão",
+      "dialog_node": "node_24_1570666217724",
+      "previous_sibling": "node_21_1570665562046"
+    },
+    {
+      "type": "standard",
+      "title": "Procurar por Objetos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♀️:  Não existem objetos relevantes na sauna."
+              },
+              {
+                "text": "👮‍♀️:  A sauna não contém nenhum objeto relevante."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1570663255997",
+      "conditions": "@saunaRelevante:objeto",
+      "dialog_node": "node_25_1570666298468",
+      "previous_sibling": "node_14_1570664412355"
+    },
+    {
+      "type": "standard",
+      "title": "Procurar por Pessoas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♀️:  Não há mais ninguém na sala. As únicas pessoas que estavam presentes foram revistadas e estão contidas em salas separadas para suas seguranças."
+              },
+              {
+                "text": "👮‍♀️:  Não há mais nenhuma pessoa na sala. Os únicos que estavam presentes foram revistados e estão contidos em salas separadas por questões de segurança."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1570663255997",
+      "conditions": "@saunaRelevante:pessoas",
+      "dialog_node": "node_16_1570664662401",
+      "previous_sibling": "node_25_1570666298468"
+    },
+    {
+      "type": "standard",
+      "title": "Examinar Água",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♀️:  Há uma poça de água perto do cadáver, ela está gelada."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1570663255997",
+      "conditions": "@saunaRelevante:água",
+      "dialog_node": "node_5_1570663319207"
+    },
+    {
+      "type": "standard",
+      "title": "Mistério Quase Resolvido 1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♀️:  Realmente, algo cortante de gelo seria ideal para este crime.\nMas que arma teria sido essa ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1570653992781",
+      "conditions": "@saunaRelevante:perfuroCortante && @saunaRelevante:gelo",
+      "dialog_node": "node_6_1570657892437",
+      "previous_sibling": "node_3_1570657243117"
+    },
+    {
+      "type": "standard",
+      "title": "Analisar Mensagem",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_8_1570653992781",
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "true",
+      "dialog_node": "node_7_1570670451584",
+      "previous_sibling": "node_10_1570662710126"
+    },
+    {
+      "type": "standard",
+      "title": "Mistério Quase Resolvido 2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♀️:  Realmente, uma arma de gelo seria ideal para este crime.\nMas que arma teria sido essa ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1570653992781",
+      "conditions": "@saunaRelevante:arma &&  @saunaRelevante:gelo",
+      "dialog_node": "node_5_1570662613885",
+      "previous_sibling": "node_6_1570657892437"
+    },
+    {
+      "type": "standard",
+      "title": "Mistério Resolvido 2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♀️:  Muito bem, meu caro $nomeDetetive !\n\nA vítima estava relaxando na sauna quando outro homem entrou com uma garrafa térmica. Dentro dela havia uma faca feita de gelo, que foi usada para esfaquear a vítima.\nInstantes depois, o gelo derreteu e não havia mais evidências do que causou a morte.\n\nPor isso o assassino conseguiu passar despercebido.\nMas, graças a você, sabemos como identificá-lo.\n\nParabéns por solucionar este caso :)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1570653992781",
+      "context": {
+        "NumCaso": 0,
+        "MsgRetorno": 1,
+        "CasoDoisResolvido": 1
+      },
+      "conditions": "@saunaRelevante:faca && @saunaRelevante:gelo",
+      "dialog_node": "node_3_1570657243117",
+      "previous_sibling": "node_4_1570656352698"
+    },
+    {
+      "type": "standard",
+      "title": "Pedir Dica 2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♀️:  A sauna estava muito quente."
+              },
+              {
+                "text": "👮‍♀️:  Não havia nada da sauna que pudesse servir como arma."
+              },
+              {
+                "text": "👮‍♀️:  Há uma poça de água perto do morto, talvez não seja uma mera coincidência."
+              },
+              {
+                "text": "👮‍♀️:  A água perto do morto está fria."
+              },
+              {
+                "text": "👮‍♀️:  O homem foi morto por um objeto perfurocortante."
+              },
+              {
+                "text": "👮‍♀️:  Você já recebeu todas as dicas. Posso repetí-las se pedir novamente."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1570653992781",
+      "conditions": "#PedirDica",
+      "dialog_node": "node_10_1570662710126",
+      "previous_sibling": "node_26_1570666776928"
+    },
+    {
+      "type": "standard",
+      "title": "Mistério Quase Resolvido 3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♀️:  Realmente, um tipo de faca poderia ter sido utilizada.\nMas não faz sentido, por que não conseguiríamos encontrá-la ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1570653992781",
+      "conditions": "@saunaRelevante:faca",
+      "dialog_node": "node_26_1570666776928",
+      "previous_sibling": "node_5_1570662613885"
+    },
+    {
+      "type": "standard",
+      "title": "Introdução 2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♀️:  Olá, $nomeDetetive!\n\nEsse caso é bastante intrigante.\n\nUm homem foi morto nessa sauna, vítima de uma ferida mortal.\nA arma do crime não foi encontrada, já revistamos o local diversas vezes e todas as pessoas que estavam presentes já foram revistadas.\n\nNós levamos todos para salas separadas onde estão contidos em segurança, mas precisamos encontrar a arma para prosseguir com a investigação.\n\nEntão contamos com você para descobrir qual a arma do crime.\n\nVamos, comece a investigar o quanto antes!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1570653992781",
+      "context": {
+        "NumCaso": 2,
+        "MsgRetorno": 0
+      },
+      "conditions": "$MsgRetorno == 1",
+      "dialog_node": "node_4_1570656352698"
+    },
+    {
+      "type": "standard",
+      "title": "Ajuda Entrar no Elevador",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🕵️‍♀️:  Basta digitar \"Apertar botão\"."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1570561187040",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_2_1570576728692"
+      },
+      "conditions": "true",
+      "dialog_node": "node_10_1570576756929",
+      "previous_sibling": "node_2_1570576728692"
+    },
+    {
+      "type": "standard",
+      "title": "Segurar Lanterna",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🕵️‍♀️:  Ugh, as luzes acabam de se apagar :(\nNão acredito que estamos tendo problemas com energia logo em seu primeiro dia.\n\nQue tal me ajudar a consertar isso ?\nSegure esta lanterna enquanto dou uma olhada no circuito."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1570561187040",
+      "conditions": "@acoesTutorial:(Apertar Botão)",
+      "dialog_node": "node_2_1570576728692"
+    },
+    {
+      "type": "standard",
+      "title": "Palpite Errado 1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Isso não me parece certo, talvez devamos reunir mais pistas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1570689635893",
+      "conditions": "true",
+      "dialog_node": "node_2_1570699885511",
+      "previous_sibling": "node_7_1570699726674"
+    },
+    {
+      "type": "standard",
+      "title": "Pular para Analisar Mensagem",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_3_1570689635893",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1570692515273"
+      },
+      "conditions": "#Examinar",
+      "dialog_node": "node_7_1570699726674",
+      "previous_sibling": "node_5_1570699764497"
+    },
+    {
+      "type": "standard",
+      "title": "Pular para Mistério Resolvido 3",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_3_1570689635893",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_20_1570699552978"
+      },
+      "conditions": "@desertoRelevante:queda && @desertoRelevante:balão",
+      "dialog_node": "node_5_1570699764497"
+    },
+    {
+      "type": "standard",
+      "title": "Palpite Errado 3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♀️:  Hmmm, isso não me parece certo.\nTalvez devêssemos procurar por mais pistas."
+              },
+              {
+                "text": "👮‍♀️:  Não me parece certo.\nVamos buscar mais pistas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_26_1570666776928",
+      "conditions": "true",
+      "dialog_node": "node_28_1570666776933",
+      "previous_sibling": "node_27_1570666776933"
+    },
+    {
+      "type": "standard",
+      "title": "Pular para Mistério Resolvido 2",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_26_1570666776928",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1570657243117"
+      },
+      "conditions": "@saunaRelevante:gelo",
+      "dialog_node": "node_27_1570666776933",
+      "previous_sibling": "node_32_1570670675725"
+    },
+    {
+      "type": "standard",
+      "title": "Pular para Analisar Mensagem ",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_26_1570666776928",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_7_1570670451584"
+      },
+      "conditions": "#Examinar",
+      "dialog_node": "node_32_1570670675725"
+    },
+    {
+      "type": "standard",
+      "title": "Examinar Palito",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Aparentemente, é apenas um palito comum e bem pequeno."
+              },
+              {
+                "text": "👮‍♂️:  Eu não conseguirei dormir à noite se não descobrir o porquê dele morrer segurando esse palito tão pequeno."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_5_1570692547522",
+      "conditions": "@desertoRelevante:palito",
+      "dialog_node": "node_2_1570694050991",
+      "previous_sibling": "node_15_1570697290615"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Isso me parece irrelevante."
+              },
+              {
+                "text": "👮‍♂️:  Não creio que faça sentido."
+              },
+              {
+                "text": "👮‍♂️:  Parece estar longe do propósito."
+              },
+              {
+                "text": "👮‍♂️:  Não vejo como se liga ao crime."
+              },
+              {
+                "text": "👮‍♂️:  Não parece ser relevante."
+              },
+              {
+                "text": "👮‍♂️:  Talvez devêssemos focar em outra coisa."
+              },
+              {
+                "text": "👮‍♂️:  Isso não me parece importante."
+              },
+              {
+                "text": "👮‍♂️:  Não entendo aonde você quer chegar com isso."
+              },
+              {
+                "text": "👮‍♂️:  Não me parece algo útil a se fazer."
+              },
+              {
+                "text": "👮‍♂️:  Isso não parece ser importante."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_5_1570692547522",
+      "conditions": "true",
+      "dialog_node": "node_39_1570704567266",
+      "previous_sibling": "node_13_1570696423910"
+    },
+    {
+      "type": "standard",
+      "title": "Examinar Digitais",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  As únicas digitais encontradas foram em roupas que estavam nas proximidades, foi confirmado que eram do morto."
+              },
+              {
+                "text": "👮‍♂️:  As únicas digitais detectadas estavam em roupas encontradas nas redondezas, foi confirmado que eram do morto."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_5_1570692547522",
+      "conditions": "@desertoRelevante:digitais",
+      "dialog_node": "node_15_1570697290615",
+      "previous_sibling": "node_9_1570695474093"
+    },
+    {
+      "type": "standard",
+      "title": "Examinar Corpo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Foram detectadas lesões graves no cadáver, provavelmente devido à uma colisão de extrema intensidade."
+              },
+              {
+                "text": "👮‍♂️:  Diversas lesões foram encontradas no corpo do homem morto, provavelmente provocados por um forte impacto."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_5_1570692547522",
+      "conditions": "@desertoRelevante:corpo",
+      "dialog_node": "node_9_1570695474093",
+      "previous_sibling": "node_11_1570695941576"
+    },
+    {
+      "type": "standard",
+      "title": "Examinar Chão",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  O terreno ao redor do corpo sugere que tenha sofrido um grande impacto."
+              },
+              {
+                "text": "👮‍♂️:  O chão ao redor do corpo está cheio de desníveis, como se tivesse sofrido um impacto."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_5_1570692547522",
+      "conditions": "@desertoRelevante:chão",
+      "dialog_node": "node_1_1570693772974",
+      "previous_sibling": "node_12_1570696195433"
+    },
+    {
+      "type": "standard",
+      "title": "Olhar para o Céu",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Olhe só, um avião ao fundo.\nEsse deserto é conhecido por ser sobrevoado frequentemente."
+              },
+              {
+                "text": "👮‍♂️:  Eu consigo ver um avião um tanto longe daqui.\nIsso me lembra que esse deserto é conhecido por ser sobrevoado frequentemente."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_5_1570692547522",
+      "conditions": "@desertoRelevante:céu",
+      "dialog_node": "node_11_1570695941576",
+      "previous_sibling": "node_1_1570693772974"
+    },
+    {
+      "type": "standard",
+      "title": "Examinar Sacos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Sacas de areia foram encontradas aqui perto.\nSão sacos que contém areia. Em pleno deserto.\nSerá que eles são úteis ou estavam apenas levando uma lembrança para casa ?"
+              },
+              {
+                "text": "👮‍♂️:  Sacas de areia foram encontradas aqui perto.\nSão sacos que contém areia. Em pleno deserto.\nQual poderia ser a utilidade deles ? Em pleno deserto ??"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_5_1570692547522",
+      "conditions": "@desertoRelevante:saco",
+      "dialog_node": "node_13_1570696423910",
+      "previous_sibling": "node_3_1570694181428"
+    },
+    {
+      "type": "standard",
+      "title": "Procurar por Roupas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Foram encontrados dois conjuntos de roupas não muito longe daqui. O tamanho das camisas são diferentes, então não devem pertencer à mesma pessoa."
+              },
+              {
+                "text": "👮‍♂️:  Duas mudas de roupa foram encontradas perto do local, elas parecem pertencer à pessoas diferentes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_5_1570692547522",
+      "conditions": "@desertoRelevante:roupa",
+      "dialog_node": "node_3_1570694181428",
+      "previous_sibling": "node_2_1570694050991"
+    },
+    {
+      "type": "standard",
+      "title": "Procurar por Areia",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Bem, areia temos de sobra, estamos num deserto.\nComo se não bastasse, foram encontradas sacas de areia não muito longe daqui."
+              },
+              {
+                "text": "👮‍♂️:  Eis algo que não vai nos faltar: Areia.\nComo se não bastasse, foram encontradas sacas de areia nos arredores."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_5_1570692547522",
+      "conditions": "@desertoRelevante:areia",
+      "dialog_node": "node_12_1570696195433"
+    },
+    {
+      "type": "standard",
+      "title": "Questionar Suicídio",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♀️:  Esse não me parece um caso de suicídio. "
+              },
+              {
+                "text": "👮‍♀️:  O homem não cometeu suicídio."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_10_1570663294134",
+      "conditions": "@saunaRelevante:suicídio",
+      "dialog_node": "node_11_1570664080766",
+      "previous_sibling": "node_23_1570666084372"
+    },
+    {
+      "type": "standard",
+      "title": "Questionar Garrafa",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♀️:  Era uma garrafa térmica grande, continha apenas alguns pequenos pedaços de gelo quando foi examinada."
+              },
+              {
+                "text": "👮‍♀️:  A garrafa era grande e aparentava ser térmica, continha apenas alguns pedaços de gelo quando foi revistada."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_10_1570663294134",
+      "conditions": "@saunaRelevante:garrafa",
+      "dialog_node": "node_23_1570666084372",
+      "previous_sibling": "node_12_1570664158824"
+    },
+    {
+      "type": "standard",
+      "title": "Questionar Choque Térmico",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♀️:  A causa da morte não foi choque térmico, mas de fato a arma do crime estava mais gelada que o ambiente."
+              },
+              {
+                "text": "👮‍♀️:  A causa da morte não foi choque térmico, mas de fato a arma do crime estava em uma temperatura mais baixa que a do ambiente."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_10_1570663294134",
+      "conditions": "@saunaRelevante:(choque térmico)",
+      "dialog_node": "node_12_1570664158824",
+      "previous_sibling": "node_22_1570665810029"
+    },
+    {
+      "type": "standard",
+      "title": "Questionar Suspeitos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♀️:  Os únicos suspeitos são as pessoas que estavam presente, mas todos foram revistados e não carregavam nada, exceto um homem que tinha uma garrafa."
+              },
+              {
+                "text": "👮‍♀️:  Os únicos suspeitos são quem estava lá mas, após revistados, nenhum carregava nada, exceto um homem que tinha uma garrafa."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_10_1570663294134",
+      "conditions": "@saunaRelevante:suspeito",
+      "dialog_node": "node_20_1570665335938",
+      "previous_sibling": "node_11_1570664080766"
+    },
+    {
+      "type": "standard",
+      "title": "Questionar Câmera",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♀️:  Existe uma câmera que monitora a entrada, talvez você consiga encontrar algo útil se examiná-la."
+              },
+              {
+                "text": "👮‍♀️:  Existe uma câmera que vigia a entrada, talvez você descubra alguma pista se investigá-la."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_10_1570663294134",
+      "conditions": "@saunaRelevante:câmera",
+      "dialog_node": "node_22_1570665810029",
+      "previous_sibling": "node_4_1570663571665"
+    },
+    {
+      "type": "standard",
+      "title": "Questionar Assassinato",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♀️:  Pela marca das feridas, isso definitivamente foi feito por outra pessoa."
+              },
+              {
+                "text": "👮‍♀️:  Pelos ferimentos, é bem certo que o homem foi assassinado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_10_1570663294134",
+      "conditions": "@saunaRelevante:assassinato",
+      "dialog_node": "node_4_1570663571665"
+    },
+    {
+      "type": "standard",
+      "title": "Pedir Dica 3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  A perícia informou que encontrou roupas próximas ao local."
+              },
+              {
+                "text": "👮‍♂️:  Alguns sacos de areia foram encontrados próximos do local."
+              },
+              {
+                "text": "👮‍♂️:  Há muitos indicadores de impacto perto do corpo."
+              },
+              {
+                "text": "👮‍♂️:  Esse deserto é conhecido por ser um atrativo para os que gostam de voar."
+              },
+              {
+                "text": "👮‍♂️:  Eu não acho que ele estava sozinho antes de morrer."
+              },
+              {
+                "text": "👮‍♂️:  Pode parecer aleatório, mas você conhece algum jogo de azar ?"
+              },
+              {
+                "text": "👮‍♂️:  As sacas de areia me lembram um filme que vi sobre balões de ar quente."
+              },
+              {
+                "text": "👮‍♂️:  Eu ainda estou na mesma questão: Mas que palitinho é esse ? E por que ele é tão pequeno ?"
+              },
+              {
+                "text": "👮‍♂️:  Você já recebeu todas as dicas. Posso repetir uma por uma caso peça."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1570685725000",
+      "conditions": "#PedirDica",
+      "dialog_node": "node_7_1570690573740",
+      "previous_sibling": "node_21_1570699992419"
+    },
+    {
+      "type": "standard",
+      "title": "Analisar Mensagem",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_5_1570685725000",
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "true",
+      "dialog_node": "node_2_1570692515273",
+      "previous_sibling": "node_7_1570690573740"
+    },
+    {
+      "type": "standard",
+      "title": "Quase Resolvido 1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Hmm, o jogo do Palito...\nEu me lembro desse jogo, quem tirar o menor palito perde, o que pode ter sido o caso.\nMas qual seria a aposta ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1570685725000",
+      "conditions": "@desertoRelevante:jogo &&   @desertoRelevante:palito",
+      "dialog_node": "node_3_1570689635893",
+      "previous_sibling": "node_20_1570699552978"
+    },
+    {
+      "type": "standard",
+      "title": "Quase Resolvido 2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Hmm, isso poderia explicar o impacto e as lesões no corpo.\nMas por que ele teria caído do balão ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1570685725000",
+      "conditions": "@desertoRelevante:queda && @desertoRelevante:balão",
+      "dialog_node": "node_21_1570699992419",
+      "previous_sibling": "node_3_1570689635893"
+    },
+    {
+      "type": "standard",
+      "title": "Mistério Resolvido 3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Minha nossa, é isso mesmo.\n\nO homem estava no balão com outra pessoa sobrevoando esse deserto, quando de repente, um acidente aconteceu e o balão começou a cair.\n\nPara evitar a queda, eles jogaram todas as sacas de areia pra fora do balão e, quando ele continuou a cair, eles jogaram até suas roupas fora numa tentativa de diminuir o peso.\n\nQuando até isto falhou, eles tiraram no jogo do palito: Quem perder pula do balão para salvar o outro.\n\nParabéns por solucionar essa loucura, eu não sei o que eu teria feito sem você."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1570685725000",
+      "context": {
+        "NumCaso": 0,
+        "MsgRetorno": 1,
+        "CasoTresResolvido": 1
+      },
+      "conditions": "@desertoRelevante:jogo && @desertoRelevante:palito &&      @desertoRelevante:queda &&     @desertoRelevante:balão",
+      "dialog_node": "node_20_1570699552978",
+      "previous_sibling": "node_10_1570685929684"
+    },
+    {
+      "type": "standard",
+      "title": "Introdução 3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Olá, $nomeDetetive.\n\nVocê chegou na hora certa, pois realmente preciso de alguma explicação para isto:\n\nUm homem foi encontrado morto no meio do deserto, ele está literalmente nu e segurando um palito.\n\nSeu dever é descobrir como ele morreu e por que diabos ele está segurando um palito ????\n\nMuito boa sorte :)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1570685725000",
+      "context": {
+        "NumCaso": 3,
+        "MsgRetorno": 0
+      },
+      "conditions": "$MsgRetorno == 1",
+      "dialog_node": "node_10_1570685929684"
+    },
+    {
+      "type": "standard",
+      "title": "Primeiro Caso Resolvido",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🕵️‍♀️:  Olá detetive $nomeDetetive, soube que acabou de resolver seu primeiro caso. \nContinue assim e você se tornará um expert nesse ramo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1570702247945",
+      "context": {
+        "MsgRetorno": 0
+      },
+      "conditions": "        $MsgRetorno == 1",
+      "dialog_node": "node_37_1570703268821",
+      "previous_sibling": "node_36_1570703240870"
+    },
+    {
+      "type": "standard",
+      "title": "Cumprimento Padrão",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🕵️‍♀️:  Olá, o que deseja ?"
+              },
+              {
+                "text": "🕵️‍♀️:  Oi, o que posso fazer por você ?"
+              },
+              {
+                "text": "🕵️‍♀️:  Olá, como posso ajudar ?"
+              },
+              {
+                "text": "🕵️‍♀️:  Oi, como posso lhe ajudar ?"
+              },
+              {
+                "text": "🕵️‍♀️:  Olá, o que você quer fazer ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_8_1570702247945",
+      "context": {},
+      "conditions": "true",
+      "dialog_node": "node_38_1570703556312",
+      "previous_sibling": "node_37_1570703268821"
+    },
+    {
+      "type": "standard",
+      "title": "Falta apenas o caso 3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🕵️‍♀️:  Olá, ouvi rumores que alguém completou seu segundo caso.\nMeus parabéns, $nomeDetetive ;)\n\nO único caso restante é o do Homem e o Palito.\n\nSoube que é o mais complicado, mas confio em você."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1570702247945",
+      "context": {
+        "MsgRetorno": 0
+      },
+      "conditions": "$CasoUmResolvido == 1 &&  $CasoDoisResolvido == 1 && $CasoTresResolvido == 0 &&      $MsgRetorno == 1",
+      "dialog_node": "node_36_1570703240870",
+      "previous_sibling": "node_35_1570703200150"
+    },
+    {
+      "type": "standard",
+      "title": "Falta apenas o caso 2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🕵️‍♀️:  Olá, ouvi rumores que alguém completou seu segundo caso.\nMeus parabéns, $nomeDetetive ;)\n\nO único caso restante é o da Morte na Sauna.\n\nEspero que você o consiga resolver o quanto antes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1570702247945",
+      "context": {
+        "MsgRetorno": 0
+      },
+      "conditions": "$CasoUmResolvido == 1 &&  $CasoDoisResolvido == 0 &&     $CasoTresResolvido == 1 &&    $MsgRetorno == 1",
+      "dialog_node": "node_35_1570703200150",
+      "previous_sibling": "node_34_1570703188716"
+    },
+    {
+      "type": "standard",
+      "title": "Falta apenas o caso 1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🕵️‍♀️:  Olá, ouvi rumores que alguém completou seu segundo caso.\nMeus parabéns, $nomeDetetive ;)\n\nO único caso restante é o de Romeu e Julieta.\n\nÉ o meu favorito, recomendo resolvê-lo o quanto antes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1570702247945",
+      "context": {
+        "MsgRetorno": 0
+      },
+      "conditions": "$CasoUmResolvido == 0 && $CasoDoisResolvido == 1 &&       $CasoTresResolvido == 1 &&      $MsgRetorno == 1",
+      "dialog_node": "node_34_1570703188716",
+      "previous_sibling": "node_3_1570702309151"
+    },
+    {
+      "type": "standard",
+      "title": "Todos os Casos Resolvidos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🕵️‍♀️:  Meus sinceros parabéns $nomeDetetive,\n\nEu sinceramente nem pensei que fosse possível o grupo implementar 3 casos para a entrega, quanto mais alguém solucioná-los.\n\nEu lhe pagaria um Donut 🍩, mas como o Brasil está em crise, receba essa código de R$0.10 de desconto: DETETIVENOTADEZ."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1570702247945",
+      "context": {
+        "MsgRetorno": 0
+      },
+      "conditions": "$CasoUmResolvido == 1 &&   $CasoDoisResolvido == 1 &&  $CasoTresResolvido == 1 && $MsgRetorno == 1",
+      "dialog_node": "node_3_1570702309151"
+    },
+    {
+      "type": "standard",
+      "title": "Confirmar Saída",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Você tem certeza que deseja sair do caso ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1570646982359",
+      "conditions": "true",
+      "dialog_node": "node_5_1570585508590",
+      "previous_sibling": "node_3_1570587377220"
+    },
+    {
+      "type": "standard",
+      "title": "Retornar - Já na agência",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🕵️‍♀️:  Você já está na agência :P"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1570646982359",
+      "conditions": " $NumCaso == 0",
+      "dialog_node": "node_3_1570587377220"
+    },
+    {
+      "type": "standard",
+      "title": "Questionar Vento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Temos bastante vento por aqui.\nÉ por causa disso que esse deserto é frequentemente sobrevoado."
+              },
+              {
+                "text": "👮‍♂️:  Ainda bem que temos bastante vento por aqui.\nSabia que é por causa disso que esse deserto é frequentemente sobrevoado ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1570692568206",
+      "conditions": "@desertoRelevante:vento",
+      "dialog_node": "node_18_1570697956886",
+      "previous_sibling": "node_4_1570694422148"
+    },
+    {
+      "type": "standard",
+      "title": "Perguntar sobre Deserto",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Estamos num deserto. Literalmente no meio do nada.\nAgora que me lembrei, é por isso que foi escolhido para alguns vôos.\nAqui perto também foram encontrados roupas e sacas de areia."
+              },
+              {
+                "text": "👮‍♂️:  Estamos num deserto. Apenas areia para todos os lados.\nAgora que me lembrei, é um lugar frequentemente escolhido para vôos.\nAqui perto também foram encontrados roupas e sacas de areia."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1570692568206",
+      "conditions": "@desertoRelevante:deserto",
+      "dialog_node": "node_8_1570695102180",
+      "previous_sibling": "node_5_1570694606963"
+    },
+    {
+      "type": "standard",
+      "title": "Questionar Desmaio",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Pelo aparente impacto, não parece que ele desmaiou."
+              },
+              {
+                "text": "👮‍♂️:  Não acho que ela tenha desmaiado, essa posição e os desníveis sugerem algo com mais impacto."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1570692568206",
+      "conditions": "@desertoRelevante:desmaio",
+      "dialog_node": "node_3_1570693586270",
+      "previous_sibling": "node_8_1570695102180"
+    },
+    {
+      "type": "standard",
+      "title": "Descobrir Avião",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Devido aos ventos, é comum sobrevoarem esse deserto com aviões e balões."
+              },
+              {
+                "text": "👮‍♂️:  Por causa dos ventos, essa área é frequentemente sobrevoada por aviões, balões, etc."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1570692568206",
+      "conditions": "@desertoRelevante:avião || @desertoRelevante:balão",
+      "dialog_node": "node_14_1570697103033",
+      "previous_sibling": "node_16_1570697732894"
+    },
+    {
+      "type": "standard",
+      "title": "Questionar Roubo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Acho difícil o homem ter parado aqui por terem roubado até suas roupas."
+              },
+              {
+                "text": "👮‍♂️:  Não creio que esse tenha sido um caso de roubo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1570692568206",
+      "conditions": "@desertoRelevante:roubo",
+      "dialog_node": "node_19_1570698198171",
+      "previous_sibling": "node_7_1570694885562"
+    },
+    {
+      "type": "standard",
+      "title": "Questionar Sede",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Morrer de sede seria plausível, mas há indicações que não foi isso o que ocorreu.\nAfinal de contas, com um calor desses, ainda bem que temos bastante vento."
+              },
+              {
+                "text": "👮‍♂️:  Morrer desidratado seria possível, mas há muitas pistas que sugerem que não foi o caso.\nAfinal de contas, está bem quente, ainda bem que temos bastante vento."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1570692568206",
+      "conditions": "@desertoRelevante:sede",
+      "dialog_node": "node_17_1570697809449",
+      "previous_sibling": "node_19_1570698198171"
+    },
+    {
+      "type": "standard",
+      "title": "Questionar Calor",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Realmente está muito quente, ainda bem que aqui venta bastante.\nAh, e não creio que ele tenha literalmente morrido de calor."
+              },
+              {
+                "text": "👮‍♂️:  O calor realmente está de matar, ainda bem que aqui venta bastante.\nAh, e não creio que ele tenha literalmente morrido de calor."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1570692568206",
+      "conditions": "@desertoRelevante:calor",
+      "dialog_node": "node_5_1570694606963",
+      "previous_sibling": "node_14_1570697103033"
+    },
+    {
+      "type": "standard",
+      "title": "Questionar Pessoa",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Creio que mais alguém tenha alguma relação com essa morte, mas não consigo pensar em como."
+              },
+              {
+                "text": "👮‍♂️:  Mesmo não havendo mais ninguém por perto, creio que a vítima não tenha parado aqui por conta própria."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1570692568206",
+      "conditions": "@desertoRelevante:pessoas",
+      "dialog_node": "node_7_1570694885562",
+      "previous_sibling": "node_10_1570695765468"
+    },
+    {
+      "type": "standard",
+      "title": "Descobrir Objetos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Foram encontrados sacos de areia e roupas por perto."
+              },
+              {
+                "text": "👮‍♂️:  Sacos de areia e roupas foram encontrados nas proximidades."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1570692568206",
+      "conditions": "@desertoRelevante:objeto",
+      "dialog_node": "node_10_1570695765468",
+      "previous_sibling": "node_6_1570694766559"
+    },
+    {
+      "type": "standard",
+      "title": "Questionar Fogo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Realmente está muito quente, mas não está pegando fogo.\nAinda bem que aqui venta muito, ou estaríamos derretendo."
+              },
+              {
+                "text": "👮‍♂️:  Realmente está muito quente, mas não há nenhum sinal de fogo.\nSorte a nossa que aqui venta bastante, ou estaríamos derretendo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1570692568206",
+      "conditions": "@desertoRelevante:fogo",
+      "dialog_node": "node_6_1570694766559",
+      "previous_sibling": "node_3_1570693586270"
+    },
+    {
+      "type": "standard",
+      "title": "Questionar Suicídio",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Não me parece ter sido simplesmente um caso de suicídio."
+              },
+              {
+                "text": "👮‍♂️:  Não creio que ele tenha apenas se matado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1570692568206",
+      "conditions": "@desertoRelevante:suicídio",
+      "dialog_node": "node_4_1570694422148",
+      "previous_sibling": "node_17_1570697809449"
+    },
+    {
+      "type": "standard",
+      "title": "Questionar Assassinato",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Isso me parece bem mais que um simples assassinato."
+              },
+              {
+                "text": "👮‍♂️:  Não tem como isso ser reduzido a um simples assassinato."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1570692568206",
+      "conditions": "@desertoRelevante:assassinato",
+      "dialog_node": "node_16_1570697732894"
+    },
+    {
+      "type": "standard",
+      "title": "Agradecer à Agente",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🕵️‍♀️:  De nada! :)"
+              },
+              {
+                "text": "🕵️‍♀️:  Não há de que. :)"
+              },
+              {
+                "text": "🕵️‍♀️:  Por nada. :)"
+              },
+              {
+                "text": "🕵️‍♀️:  O prazer é meu. :)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1570646264917",
+      "conditions": "#Agradecer",
+      "dialog_node": "node_9_1570662513920",
+      "previous_sibling": "node_4_1570520453985"
+    },
+    {
+      "type": "standard",
+      "title": "Todos os Casos Resolvidos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🕵️‍♀️:  Realmente um trabalho fenomenal.\n\nVocê, detetive $nomeDetetive, solucionou todos os casos que estavam em aberto.\nE por isso está de parabéns.\n\nSeu trabalho, por enquanto, está concluído.\nMas quem sabe não nos vejamos novamente em outra atualização do bot.\n\nSinta-se livre para fazer qualquer pergunta que desejar, espero que a maioria delas tenha sido implementada."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1570646264917",
+      "conditions": "#IniciarCaso &&    $CasoUmResolvido == 1 &&   $CasoDoisResolvido == 1 && $CasoTresResolvido == 1",
+      "dialog_node": "node_1_1570520837563",
+      "previous_sibling": "node_2_1570646857046"
+    },
+    {
+      "type": "standard",
+      "title": "Quer escolher um Caso",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🕵️‍♀️:  Ótimo, temos os seguintes casos disponíveis:\n\n1 - Romeu e Julieta\n2 - Morte na Sauna\n3 - O Homem e o Palito\n\nPara selecionar um caso, digite o nome do mesmo.\n\nUm policial estará no local para lhe falar sobre a cena do crime e auxiliar na busca por pistas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1570646264917",
+      "conditions": " #IniciarCaso",
+      "dialog_node": "node_4_1570520453985",
+      "previous_sibling": "node_1_1570520837563"
+    },
+    {
+      "type": "standard",
+      "title": "Aleatório na Agência",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🕵️‍♀️:  Não entendi."
+              },
+              {
+                "text": "🕵️‍♀️:  Creio não ter compreendido."
+              },
+              {
+                "text": "🕵️‍♀️:  Acho que não entendi direito."
+              },
+              {
+                "text": "🕵️‍♀️:  Desculpa, não entendi."
+              },
+              {
+                "text": "🕵️‍♀️:  Desculpa, não consegui te entender."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1570646264917",
+      "conditions": "true",
+      "dialog_node": "node_3_1570521882838",
+      "previous_sibling": "node_9_1570662513920"
+    },
+    {
+      "type": "folder",
+      "title": "Perguntas ",
+      "parent": "node_4_1570646264917",
+      "conditions": "#PerguntarAlgo || @assuntoPerguntas",
+      "dialog_node": "node_2_1570646857046",
+      "previous_sibling": "node_8_1570702247945"
+    },
+    {
+      "type": "folder",
+      "title": "Cumprimentar",
+      "parent": "node_4_1570646264917",
+      "conditions": "#Cumprimentar",
+      "dialog_node": "node_8_1570702247945"
+    },
+    {
+      "type": "standard",
+      "title": "Pular para Mistério Resolvido 2",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_5_1570662613885",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1570657243117"
+      },
+      "conditions": "@saunaRelevante:faca",
+      "dialog_node": "node_6_1570662613888",
+      "previous_sibling": "node_31_1570670652249"
+    },
+    {
+      "type": "standard",
+      "title": "Palpite Errado 2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♀️:  Hmmm, isso não me parece certo.\nTalvez devêssemos procurar por mais pistas."
+              },
+              {
+                "text": "👮‍♀️:  Não me parece certo.\nVamos buscar mais pistas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_5_1570662613885",
+      "conditions": "true",
+      "dialog_node": "node_7_1570662613888",
+      "previous_sibling": "node_6_1570662613888"
+    },
+    {
+      "type": "standard",
+      "title": "Pular para Analisar Mensagem",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_5_1570662613885",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_7_1570670451584"
+      },
+      "conditions": "#Examinar",
+      "dialog_node": "node_31_1570670652249"
+    },
+    {
+      "type": "standard",
+      "title": "Observar Apartamento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  No apartamento há os corpos, água, pedaços de vidro e alguns pêlos."
+              },
+              {
+                "text": "👮‍♂️:  Existe apenas os corpos, água, cacos de vidro e alguns pêlos no apartamento."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1570647266068",
+      "conditions": "@algoRelevante:apartamento",
+      "dialog_node": "node_33_1570675240353",
+      "previous_sibling": "node_6_1570263427905"
+    },
+    {
+      "type": "standard",
+      "title": "Olhar para Chuva",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  O céu está bastante limpo, sem nenhum sinal de chuva."
+              },
+              {
+                "text": "👮‍♂️:  O sol está brilhando e não tem nenhum sinal de chuva."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1570647266068",
+      "conditions": "   @algoRelevante:chuva",
+      "dialog_node": "node_5_1570266789077",
+      "previous_sibling": "node_29_1570667660576"
+    },
+    {
+      "type": "standard",
+      "title": "Examinar Chão",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  No chão estão os corpos de Romeu e Julieta, água e alguns pedaços de vidro."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1570647266068",
+      "conditions": "@algoRelevante:chão",
+      "dialog_node": "node_29_1570667660576",
+      "previous_sibling": "node_7_1570265226278"
+    },
+    {
+      "type": "standard",
+      "title": "Examinar Corpos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Os corpos estão cobertos e não podem ser vistos, mas foi informado que eles não contém feridas ou machucados"
+              },
+              {
+                "text": "👮‍♂️:  Os corpos estão cobertos e não podem ser visto, mas foi informado que não há sinais de ferimentos nos corpos."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1570647266068",
+      "conditions": "  @algoRelevante:corpos",
+      "dialog_node": "node_7_1570263007873",
+      "previous_sibling": "node_10_1570304845073"
+    },
+    {
+      "type": "standard",
+      "title": "Procurar por Sangue",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Não é encontrado sangue em qualquer lugar."
+              },
+              {
+                "text": "👮‍♂️:  Não existe sangue algum na cena do crime."
+              },
+              {
+                "text": "👮‍♂️:  Não há nenhum sinal de sangue."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1570647266068",
+      "conditions": "  @algoRelevante:sangue",
+      "dialog_node": "node_10_1570263216681",
+      "previous_sibling": "node_9_1570267909013"
+    },
+    {
+      "type": "standard",
+      "title": "Examinar Vidro",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Há apenas pequenos cacos de vidro, parecem ter sido parte de um objeto."
+              },
+              {
+                "text": "👮‍♂️:  Os pedaços de vidro são pequenos, talvez algum objeto tenha sido quebrado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1570647266068",
+      "conditions": "  @algoRelevante:vidro",
+      "dialog_node": "node_8_1570273280181",
+      "previous_sibling": "node_8_1570306035147"
+    },
+    {
+      "type": "standard",
+      "title": "Procurar por Arma do crime",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Não há sinal de nenhum tipo de arma no local."
+              },
+              {
+                "text": "👮‍♂️:  Aparentemente, não há uma arma do crime."
+              },
+              {
+                "text": "👮‍♂️:  Nenhum tipo de arma foi encontrado no local."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1570647266068",
+      "conditions": "   @algoRelevante:arma",
+      "dialog_node": "node_7_1570265226278",
+      "previous_sibling": "node_33_1570675240353"
+    },
+    {
+      "type": "standard",
+      "title": "Procurar por sinais de Roubo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Não há nenhum sinal de invasão e nenhum objeto de valor aparenta ter sido roubado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1570647266068",
+      "conditions": "  @algoRelevante:invasão",
+      "dialog_node": "node_9_1570267269222",
+      "previous_sibling": "node_4_1570267153653"
+    },
+    {
+      "type": "standard",
+      "title": "Procurar por alguma Saída",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  A única saída é a porta principal, que estava sendo vigiada desde o começo."
+              },
+              {
+                "text": "👮‍♂️:  Ninguém conseguiria fugir ou escapar do local."
+              },
+              {
+                "text": "👮‍♂️:  Não havia nenhuma saída não vigiada no apartamento."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1570647266068",
+      "conditions": "  @algoRelevante:porta",
+      "dialog_node": "node_9_1570267909013",
+      "previous_sibling": "node_8_1570305737564"
+    },
+    {
+      "type": "standard",
+      "title": "Olhar para Pia",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  A pia está em perfeito estado, a água não deve ter vindo daqui."
+              },
+              {
+                "text": "👮‍♂️:  Não há nada de errado com a pia, a água não deve ter vindo daqui."
+              },
+              {
+                "text": "👮‍♂️:  A pia parece boa, a água não deve ter vindo daqui."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1570647266068",
+      "conditions": "  @algoRelevante:pia",
+      "dialog_node": "node_8_1570305737564",
+      "previous_sibling": "node_5_1570305628048"
+    },
+    {
+      "type": "standard",
+      "title": "Procurar por Vaso",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Os vasos do apartamento não são feitos de vidro."
+              },
+              {
+                "text": "👮‍♂️:  Os vasos estão em perfeito estado e não são de vidro."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1570647266068",
+      "conditions": "  @algoRelevante:vaso",
+      "dialog_node": "node_9_1570305898337",
+      "previous_sibling": "node_10_1570263216681"
+    },
+    {
+      "type": "standard",
+      "title": "Examinar Janela",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  A janela está fechada, trancada por dentro e se encontra em perfeito estado."
+              },
+              {
+                "text": "👮‍♂️:  Existe apenas uma janela no local, ela está trancada e não está quebrada."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1570647266068",
+      "conditions": "  @algoRelevante:janela",
+      "dialog_node": "node_1_1570263146003",
+      "previous_sibling": "node_9_1570267269222"
+    },
+    {
+      "type": "standard",
+      "title": "Procurar por Copo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Não tinha nenhum copo ou garrafa no local."
+              },
+              {
+                "text": "👮‍♂️:  Nenhum copo ou jarro foi encontrado na cena do crime."
+              },
+              {
+                "text": "👮‍♂️:  Não foi encontrado nenhum copo ou garrafa no local."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1570647266068",
+      "conditions": "   @algoRelevante:copo",
+      "dialog_node": "node_10_1570304845073",
+      "previous_sibling": "node_7_1570304698117"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Isso me parece irrelevante."
+              },
+              {
+                "text": "👮‍♂️:  Não creio que faça sentido."
+              },
+              {
+                "text": "👮‍♂️:  Parece estar longe do propósito."
+              },
+              {
+                "text": "👮‍♂️:  Não vejo como se liga ao crime."
+              },
+              {
+                "text": "👮‍♂️:  Não parece ser relevante."
+              },
+              {
+                "text": "👮‍♂️:  Talvez devêssemos focar em outra coisa."
+              },
+              {
+                "text": "👮‍♂️:  Isso não me parece importante."
+              },
+              {
+                "text": "👮‍♂️:  Não entendo aonde você quer chegar com isso."
+              },
+              {
+                "text": "👮‍♂️:  Não me parece algo útil a se fazer."
+              },
+              {
+                "text": "👮‍♂️:  Isso não parece ser importante."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1570647266068",
+      "conditions": "true",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_8_1570273280181"
+    },
+    {
+      "type": "standard",
+      "title": "Investigar Chuveiro",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  O chuveiro está desligado e em ótimas condições."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1570647266068",
+      "conditions": "   @algoRelevante:chuveiro",
+      "dialog_node": "node_7_1570304698117",
+      "previous_sibling": "node_5_1570266789077"
+    },
+    {
+      "type": "standard",
+      "title": "Procurar por Pessoas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Não há sinal de mais nenhuma pessoa na cena do crime."
+              },
+              {
+                "text": "👮‍♂️:  Ninguém entrou ou saiu da cena do crime e não há mais nenhuma pessoa aqui."
+              },
+              {
+                "text": "👮‍♂️:  As únicas pessoas presentes são a equipe de investigação."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1570647266068",
+      "conditions": "   @algoRelevante:pessoas",
+      "dialog_node": "node_5_1570305628048",
+      "previous_sibling": "node_1_1570263146003"
+    },
+    {
+      "type": "standard",
+      "title": "Procurar por Digitais",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Não foi encontrado nenhuma digital no apartamento, talvez isso não tenha sido feito por ladrões."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1570647266068",
+      "conditions": "  @algoRelevante:identidade",
+      "dialog_node": "node_4_1570267153653",
+      "previous_sibling": "node_7_1570263007873"
+    },
+    {
+      "type": "standard",
+      "title": "Procurar por Vazamento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Não há nenhum sinal de vazamento, a água deve ter vindo de outro local."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1570647266068",
+      "conditions": "  @algoRelevante:vazamento",
+      "dialog_node": "node_8_1570306035147",
+      "previous_sibling": "node_9_1570305898337"
+    },
+    {
+      "type": "standard",
+      "title": "Procurar por Água",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  A única água no local é uma poça ao lado dos cadáveres no chão."
+              },
+              {
+                "text": "👮‍♂️:  Existe apenas uma pequena poça de água, que está no chão."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1570647266068",
+      "conditions": "   @algoRelevante:água",
+      "dialog_node": "node_6_1570263427905"
+    },
+    {
+      "type": "standard",
+      "title": "Caso Selecionado",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_1_1570661423597",
+      "context": {
+        "NumCaso": 2,
+        "MsgRetorno": 1
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_4_1570656352698"
+      },
+      "conditions": "true",
+      "dialog_node": "node_3_1570661423601",
+      "previous_sibling": "node_2_1570661423601"
+    },
+    {
+      "type": "standard",
+      "title": "Já Resolvido",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🕵️‍♀️:  Você já resolveu este caso, detetive :)\nQuem sabe não seria melhor explorar nossas outras opções ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1570661423597",
+      "conditions": "$CasoDoisResolvido == 1",
+      "dialog_node": "node_2_1570661423601"
+    },
+    {
+      "type": "standard",
+      "title": "Descobrir sobre Animais",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Os vizinhos informaram que existem animais nesse apartamento."
+              },
+              {
+                "text": "👮‍♂️:  Foi descoberto que há animais de estimação nesse apartamento."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_7_1570660276377",
+      "conditions": "   @algoRelevante:animais",
+      "dialog_node": "node_10_1570263658201",
+      "previous_sibling": "node_7_1570305505923"
+    },
+    {
+      "type": "standard",
+      "title": "Questionar Suicídio",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Romeu e Julieta não se mataram."
+              },
+              {
+                "text": "👮‍♂️:  Esse não foi um caso de suicídio."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_7_1570660276377",
+      "conditions": "   @algoRelevante:suicídio",
+      "dialog_node": "node_7_1570268067039",
+      "previous_sibling": "node_34_1570675320585"
+    },
+    {
+      "type": "standard",
+      "title": "Questionar Assassinato",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Esse não me parece um caso de assassinato comum."
+              },
+              {
+                "text": "👮‍♂️:  Creio que eles não tenham sido mortos ordinariamente."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_7_1570660276377",
+      "conditions": "   @algoRelevante:assassinato",
+      "dialog_node": "node_2_1570305113305",
+      "previous_sibling": "node_10_1570267718007"
+    },
+    {
+      "type": "standard",
+      "title": "Perguntar sobre Cachorros",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Não é permitido cachorros nesse apartamento."
+              },
+              {
+                "text": "👮‍♂️:  Doguinhos são fofos, mas não são permitidos aqui."
+              },
+              {
+                "text": "👮‍♂️:  Cachorros não são permitidos nesse lugar."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_7_1570660276377",
+      "conditions": "   @algoRelevante:cachorro",
+      "dialog_node": "node_1_1570304084154",
+      "previous_sibling": "node_6_1570267443894"
+    },
+    {
+      "type": "standard",
+      "title": "Descobrir Gatos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Há gatos no apartamento."
+              },
+              {
+                "text": "👮‍♂️:  Você consegue ouvir gatos miarem no apartamento."
+              },
+              {
+                "text": "👮‍♂️:  Você nota que existem gatos dormindo no cômodo ao lado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_7_1570660276377",
+      "conditions": "  @algoRelevante:gato",
+      "dialog_node": "node_35_1570675929347",
+      "previous_sibling": "node_9_1570266943298"
+    },
+    {
+      "type": "standard",
+      "title": "Descobrir sobre Aquário",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Soubemos que houve uma encomenda de um aquário para esse apartamento."
+              },
+              {
+                "text": "👮‍♂️:  Um aquário foi entregue nesse apartamento há alguns dias."
+              },
+              {
+                "text": "👮‍♂️:  Houve a entrega de um aquário para o apartamento alguns dias atrás."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_7_1570660276377",
+      "context": {},
+      "conditions": "   @algoRelevante:aquário",
+      "dialog_node": "node_4_1570265062051",
+      "previous_sibling": "node_10_1570263658201"
+    },
+    {
+      "type": "standard",
+      "title": "Descobrir Gatos e Peixes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Há gatos e peixes no apartamento."
+              },
+              {
+                "text": "👮‍♂️:  Foi informado que existem gatos e peixes no apartamento."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_7_1570660276377",
+      "conditions": "@algoRelevante:gato && @algoRelevante:peixe",
+      "dialog_node": "node_9_1570266943298",
+      "previous_sibling": "node_2_1570305113305"
+    },
+    {
+      "type": "standard",
+      "title": "Procurar por Pássaros",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Não existia pássaro algum nesse apartamento."
+              },
+              {
+                "text": "👮‍♂️:  Não havia nenhum sinal de pássaros no local."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_7_1570660276377",
+      "conditions": "  @algoRelevante:pássaro",
+      "dialog_node": "node_7_1570305505923",
+      "previous_sibling": "node_1_1570304084154"
+    },
+    {
+      "type": "standard",
+      "title": "Perguntar sobre Pêlos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Os pêlos parecem ser de algum felino."
+              },
+              {
+                "text": "👮‍♂️:  Os pêlos encontrados parecem ser de felinos."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_7_1570660276377",
+      "conditions": "@algoRelevante:pêlo",
+      "dialog_node": "node_34_1570675320585",
+      "previous_sibling": "node_4_1570265062051"
+    },
+    {
+      "type": "standard",
+      "title": "Descobrir Peixes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Há peixes no apartamento."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_7_1570660276377",
+      "conditions": "  @algoRelevante:peixe",
+      "dialog_node": "node_6_1570267443894",
+      "previous_sibling": "node_35_1570675929347"
+    },
+    {
+      "type": "standard",
+      "title": "Questionar Veneno",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Não existe veneno nesse crime."
+              },
+              {
+                "text": "👮‍♂️:  Ninguém bebeu veneno."
+              },
+              {
+                "text": "👮‍♂️:  Ninguém morreu por veneno."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_7_1570660276377",
+      "conditions": "  @algoRelevante:veneno",
+      "dialog_node": "node_3_1570268158144",
+      "previous_sibling": "node_7_1570268067039"
+    },
+    {
+      "type": "standard",
+      "title": "Questionar sobre Amor",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👮‍♂️:  Romeu e Julieta podem até ser um casal, mas provavelmente não do jeito que você espera."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_7_1570660276377",
+      "conditions": "   @algoRelevante:amor",
+      "dialog_node": "node_10_1570267718007"
+    },
+    {
+      "type": "standard",
+      "title": "Em Romeu e Julieta",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🕵️‍♂️:  Olá $nomeDetetive,\n\nVocê está trabalhando no caso de Romeu Julieta.\nRomeu e Julieta foram encontrados mortos ao lado de uma poça de água e pedaços de vidro.\n\nVocê deve explorar o cenário, interagindo com as coisas ao seu redor (Ex: Examinar água, Olhar para a janela).\n\nSeu dever é descobrir o que matou Romeu e Julieta.\n\nQuando tiver a solução, apenas a explique para o policial e, se estiver correta, ele irá confirmar para você (Ex: Eles estavam muito gripados).\n\nCaso esteja com dificuldades no caso, você pode pedir dicas (Ex: Pedir dica).\n\nAlém disso, caso esteja cansado, você pode retornar para a agência pedindo para sair do caso (Ex: Sair do Caso, Voltar para a agência)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1570649022126",
+      "conditions": "$NumCaso == 1",
+      "dialog_node": "node_5_1570649184566",
+      "previous_sibling": "node_5_1570649154898"
+    },
+    {
+      "type": "standard",
+      "title": "Em Morte na Sauna",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🕵️‍♂️:  Olá $nomeDetetive,\n\nVocê está trabalhando no caso da Morte na Sauna.\nUm homem foi encontrado morto, mas a arma do crime não foi encontrada em lugar algum, mesmo após revistarmos todos que estavam no local.\n\nVocê deve examinar o cenário em busca de pistas, interagindo com as coisas ao seu redor (Ex: Procurar suspeitos, Examinar o corpo).\n\nSeu dever é descobrir qual foi a arma do crime.\n\nQuando tiver a solução, apenas a diga para a policial e, se estiver correta, ela irá confirmar para você (Ex: Ele foi morto por uma Motoserra).\n\nCaso esteja com dificuldades no caso, você pode pedir dicas (Ex: Pedir dica).\n\nAlém disso, caso esteja cansado, você pode retornar para a agência pedindo para sair do caso (Ex: Sair do Caso, Voltar para a agência)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1570649022126",
+      "conditions": "$NumCaso == 2",
+      "dialog_node": "node_6_1570656715639",
+      "previous_sibling": "node_5_1570649184566"
+    },
+    {
+      "type": "standard",
+      "title": "Em Homem e o Palito",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🕵️‍♂️:  Olá $nomeDetetive,\n\nVocê está trabalhando no caso do Homem e o Palito.\nUm homem foi encontrado morto, pelado e segurando um pequeno palito no meio do deserto.\n\nNossa... isso não é algo que se escuta todo dia.\nEnfim, você deve examinar o cenário em busca de pistas, interagindo com as coisas ao seu redor (Ex: Procurar areia, Examinar o corpo).\n\nSeu dever é descobrir como o homem morreu e por que ele está segurando o palito.\n\nQuando tiver a solução, apenas a diga para a policial e, se estiver correta, ela irá confirmar para você (Ex: Ele se matou com um palito).\n\nCaso esteja com dificuldades no caso, você pode pedir dicas (Ex: Pedir dica).\n\nAlém disso, caso esteja cansado, você pode retornar para a agência pedindo para sair do caso (Ex: Sair do Caso, Voltar para a agência)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1570649022126",
+      "conditions": "$NumCaso == 3",
+      "dialog_node": "node_29_1570700265464",
+      "previous_sibling": "node_6_1570656715639"
+    },
+    {
+      "type": "standard",
+      "title": "Na Agência",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🕵️‍♂️:  Olá $nomeDetetive,\n\nVocê está na Agência de Sistemas Geniais.\n\nAqui, você pode fazer perguntas sobre a agência e as responderei sempre que permitido.\nPara fazer uma pergunta, basta digitá-la (Ex: Qual o seu nome ?).\n\nAlém disso, você pode investigar um mistério. Eles são casos de assassinatos um tanto peculiares e você deve encontrar a explicação lógica deles.\nPara selecionar um caso, peça para que eu lhe mostre os casos (Ex: Listar casos) e em seguida selecione um caso válido (Ex: Caso 1)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1570649022126",
+      "conditions": "$NumCaso == 0",
+      "dialog_node": "node_5_1570649154898"
+    },
+    {
+      "type": "standard",
+      "title": "Ajuda Entrar na Sala",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🕵️‍♀️:  O que está esperando ? Basta digitar \"Entrar na sala\"."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1570576839285",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_7_1570576974735"
+      },
+      "conditions": "true",
+      "dialog_node": "node_4_1570576998022",
+      "previous_sibling": "node_7_1570576974735"
+    },
+    {
+      "type": "standard",
+      "title": "Introdução Concluída",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🕵️‍♀️:  Perfeito, $nomeDetetive.\n\nAgora que você se familiarizou com interação com o cenário, permita-me falar um pouco do que fazemos por aqui.\n\nComo eu disse anteriormente, faço parte de uma agência de investigação.\nCreio que você possa ter perguntas e se for o caso, sinta-se livre para fazê-las.\n\nAlém de responder suas perguntas, posso indicar os casos ainda não resolvidos por nossos agentes.\n\nNeles, você deve explorar e interagir com o cenário, assim como acaba de fazer, para descobrir pistas sobre os crimes cometidos. Quando encontrar a solução, basta dizer-la e os policiais no local farão a verificação.\n\nCaso esteja com dificuldades, você poderá pedir dicas quando estiver nos casos.\nCaso não queira mais explorar o caso, você poderá pedir a qualquer momento para retornar à agência.\n\nE se em algum momento você se sentir perdido, pode solicitar ajuda e um de nossos agentes irá lhe encontrar.\n\nAgora, você pode me perguntar o que quiser ou iniciar um de nossos casos.\n\nBoa sorte :)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1570576839285",
+      "context": {
+        "tutComp": 1
+      },
+      "conditions": "@acoesTutorial:(Entrar na sala)",
+      "dialog_node": "node_7_1570576974735"
+    },
+    {
+      "type": "folder",
+      "title": "Ajuda",
+      "conditions": "#PedirAjuda",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1570649022126",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "folder",
+      "title": "Caso 2 - Morte na Sauna",
+      "conditions": "$NumCaso == 2",
+      "dialog_node": "node_8_1570653992781",
+      "previous_sibling": "node_4_1570647122929"
+    },
+    {
+      "type": "folder",
+      "title": "Caso 3 - O Homem e o Palito",
+      "conditions": "$NumCaso == 3",
+      "dialog_node": "node_5_1570685725000",
+      "previous_sibling": "node_8_1570653992781"
+    },
+    {
+      "type": "folder",
+      "title": "Agência",
+      "conditions": "$NumCaso == 0",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1570646264917",
+      "previous_sibling": "node_5_1570646982359"
+    },
+    {
+      "type": "folder",
+      "title": "Caso 1 - Romeu e Julieta",
+      "conditions": "$NumCaso == 1",
+      "dialog_node": "node_4_1570647122929",
+      "previous_sibling": "node_4_1570646264917"
+    },
+    {
+      "type": "folder",
+      "title": "Retornar à Agência",
+      "conditions": "#SairCaso",
+      "dialog_node": "node_5_1570646982359",
+      "previous_sibling": "node_10_1570649022126"
+    },
+    {
+      "type": "standard",
+      "title": "Introdução",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🕵️‍♀️:  Olá, Detetive.\n\nReceba as boas vindas da Agência dos Sistemas Geniais.\nSomos uma agência de investigação especializada em crimes \"incomuns\".\n\nPara começar, qual o seu nome ?\n(Digite apenas seu nome)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "NumCaso": 0,
+        "MsgRetorno": 0,
+        "CasoUmResolvido": 0,
+        "CasoDoisResolvido": 0,
+        "CasoTresResolvido": 0
+      },
+      "conditions": "welcome ||  $tutComp != 1 || #ReiniciarProgresso",
+      "dialog_node": "Bem-vindo"
+    }
+  ],
+  "workspace_id": "2c4ec75c-b9e7-46e2-b34c-938d7a9f3f83",
+  "counterexamples": [],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    }
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}
