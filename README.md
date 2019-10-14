@@ -17,7 +17,7 @@ Afterwards, you'll be able to make any modifications and test the bot simultaneo
 
 # How to run on Telegram
 
-Currently, there's a bot running the file under the name of "Elementar, meu caro Watson", it can also be found via @SistemasGeniais_bot.
+Currently, there's a bot running the file under the name of "Elementar, meu caro Watson", it can also be found via 
 
 ```
 https://t.me/SistemasGeniais_bot
