@@ -20,7 +20,10 @@ Afterwards, you'll be able to make any modifications and test the bot simultaneo
 Currently, there's a bot running the file under the name of "Elementar, meu caro Watson", it can also be found via @SistemasGeniais_bot.
 
 If you wish to run your own instance on telegram, you'll need to load it on Watson and utilize IBM's Node-RED.
-The steps are better described on this link: https://developer.ibm.com/recipes/tutorials/how-to-create-a-watson-chatbot-on-nodered/
+The steps are better described on this link:
+
+``` https://developer.ibm.com/recipes/tutorials/how-to-create-a-watson-chatbot-on-nodered/ ```
+
 Note that it's important for the instance of the bot to be able to handle multiple users at once, so make sure to check the msg.user option on Node-RED.
 
 # Notes
