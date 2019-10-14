@@ -6,7 +6,7 @@ The discipline required the development of a bot, it was recommended the use of 
 
 The bot is the implementation of a game based on Dark Stories. You are presented with 3 murder mysteries and you must interact with the scenario in order to gain more information and solve the mysteries.
 
-It utilizes Watson to process Natural Language and identify relevant sentences to each of the scenarios. The implementation also includes a tutorial so players are familiar with the way commands are processed, options for help, hints and answers to some questions.
+It utilizes Watson to process Natural Language and identify relevant sentences to each of the scenarios. The implementation also includes a tutorial so players are familiar with the way commands are processed. Options for help, hints and answers to some questions are also available.
 
 This bot was graded 100%.
 
