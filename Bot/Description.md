@@ -5,19 +5,19 @@ Aqui você é um detetive encarregado de solucionar 3 casos que foram cautelosam
 ##### Avaliações Legítimas
 
 ```
-		  ⭐️⭐️⭐️⭐️⭐️
-	"Uma experiência inédita."
-	   - O programador
+            ⭐️⭐️⭐️⭐️⭐️
+     "Uma experiência inédita."
+          - O programador
 ```
 
 ```
-			⭐️⭐️⭐️⭐️⭐️
-	"Muito bom. Estão de parabéns."
-	  - O professor no meu sonho
+             ⭐️⭐️⭐️⭐️⭐️
+    "Muito bom. Estão de parabéns."
+      - O professor no meu sonho
 ```
 
 ```
-			  ⭐️⭐️⭐️⭐️⭐️
-			"Sem comparação."
-- Minha namorada sobre o sorvete da San Paolo
+                ⭐️⭐️⭐️⭐️⭐️
+              "Sem comparação."
+  - Minha namorada sobre o sorvete da San Paolo
 ```
