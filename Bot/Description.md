@@ -6,18 +6,18 @@ Aqui você é um detetive encarregado de solucionar 3 casos que foram cautelosam
 
 ```
             ⭐️⭐️⭐️⭐️⭐️
- >    "Uma experiência inédita."
+>     "Uma experiência inédita."
           - O programador
 ```
 
 ```
              ⭐️⭐️⭐️⭐️⭐️
- >   "Muito bom. Estão de parabéns."
+>    "Muito bom. Estão de parabéns."
       - O professor no meu sonho
 ```
 
 ```
                 ⭐️⭐️⭐️⭐️⭐️
- >             "Sem comparação."
+>              "Sem comparação."
   - Minha namorada sobre o sorvete da San Paolo
 ```
