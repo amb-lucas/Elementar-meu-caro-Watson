@@ -17,11 +17,7 @@ Afterwards, you'll be able to make any modifications and test the bot simultaneo
 
 # How to run on Telegram
 
-Currently, there's a bot running the file under the name of "Elementar, meu caro Watson", it can also be found via 
-
-```
-https://t.me/SistemasGeniais_bot
-```
+Currently, there's no bot running the file.
 
 If you wish to run your own instance on telegram, you'll need to load it on Watson and utilize IBM's Node-RED.
 The steps are better described on this link:
